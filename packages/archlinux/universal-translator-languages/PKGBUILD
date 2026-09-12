@@ -1,0 +1,90 @@
+# Maintainer: Cookie Engineer <@cookiengineer>
+
+pkgname=universal-translator-languages
+pkgver=1
+pkgrel=1
+pkgdesc="Bundled language models for the universal-translator offline translation client"
+arch=('any')
+url="https://github.com/cookiengineer/universal-translator"
+license=('custom')
+depends=('universal-translator')
+source=(
+  "bg-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/bgen/bgen.student.tiny11.v1.f9c89a3a25ff8dca.tar.gz"
+  "ca-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/caen/caen.student.tiny11.v1.edaf67d1938e80d3.tar.gz"
+  "cs-en-base.tar.gz::https://data.statmt.org/bergamot/models/csen/csen.student.base.v1.cd5418ba6a412fc7.tar.gz"
+  "cs-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/csen/csen.student.tiny11.v1.8f603aded58f0a3c.tar.gz"
+  "de-en-base.tar.gz::https://data.statmt.org/bergamot/models/deen/deen.student.base.v2.caa7c0ce3c8eaf05.tar.gz"
+  "de-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/deen/deen.student.tiny11.v2.9f70fcb17bf9572d.tar.gz"
+  "el-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/elen/elen.student.tiny11.v1.0006442831596378.tar.gz"
+  "en-bg-tiny.tar.gz::https://data.statmt.org/bergamot/models/bgen/enbg.student.tiny11.v1.3ea060c1b76470a7.tar.gz"
+  "en-cs-base.tar.gz::https://data.statmt.org/bergamot/models/csen/encs.student.base.v1.db770d87e491b0dc.tar.gz"
+  "en-cs-tiny.tar.gz::https://data.statmt.org/bergamot/models/csen/encs.student.tiny11.v1.b5c1ff605296b0e5.tar.gz"
+  "en-de-base.tar.gz::https://data.statmt.org/bergamot/models/deen/ende.student.base.v2.37b172bc9b594f9b.tar.gz"
+  "en-de-tiny.tar.gz::https://data.statmt.org/bergamot/models/deen/ende.student.tiny11.v2.93821e13b3c511b5.tar.gz"
+  "en-es-tiny.tar.gz::https://data.statmt.org/bergamot/models/esen/enes.student.tiny11.v1.a7203a8f8e9daea8.tar.gz"
+  "en-et-tiny.tar.gz::https://data.statmt.org/bergamot/models/eten/enet.student.tiny11.v1.0b8f835b0c154aaa.tar.gz"
+  "en-fr-tiny.tar.gz::https://data.statmt.org/bergamot/models/fren/enfr.student.tiny11.v1.805d112122af03d0.tar.gz"
+  "en-pl-tiny.tar.gz::https://data.statmt.org/bergamot/models/plen/enpl.student.tiny11.v1.c33219daa12e7872.tar.gz"
+  "es-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/esen/esen.student.tiny11.v1.09576f06d0ad805e.tar.gz"
+  "et-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/eten/eten.student.tiny11.v1.38de61c668e42f36.tar.gz"
+  "fr-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/fren/fren.student.tiny11.v1.dccea16d03c0a389.tar.gz"
+  "hbs-eng-tiny.tar.gz::https://data.statmt.org/bergamot/models/hbseng/hbseng.student.tiny11.v1.fa8a29e01a5332ba.tar.gz"
+  "is-en-base.tar.gz::https://data.statmt.org/bergamot/models/isen/isen.student.base.v2.536d6b8808a5c076.tar.gz"
+  "is-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/isen/isen.student.tiny11.v2.829203cf37b7bdc4.tar.gz"
+  "mk-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/mken/mken.student.tiny11.v1.dd03ef56f4695c7b.tar.gz"
+  "mt-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/mten/mten.student.tiny11.v1.4089a5a036eff1c3.tar.gz"
+  "nb-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/nben/nben.student.tiny11.v1.e410ce34f8337aab.tar.gz"
+  "nn-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/nnen/nnen.student.tiny11.v1.0efa37c16887eea4.tar.gz"
+  "pl-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/plen/plen.student.tiny11.v1.87148203cbda2842.tar.gz"
+  "sl-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/slen/slen.student.tiny11.v1.d029034e49c3bb08.tar.gz"
+  "sq-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/sqen/sqen.student.tiny11.v1.6ead0c9b236f942b.tar.gz"
+  "tr-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/tren/tren.student.tiny11.v1.d7728d17a313230a.tar.gz"
+  "uk-en-tiny.tar.gz::https://data.statmt.org/bergamot/models/uken/uken.student.tiny11.v1.108d04d1e160153a.tar.gz"
+)
+sha256sums=(
+  "f9c89a3a25ff8dca84413b28c1afe722ebc969f4aa84e7ecd14ea03ba77c8ae5"
+  "edaf67d1938e80d3ad082056c08be8c19d8cd178375de1211b17c8d0cd06aec7"
+  "cd5418ba6a412fc7e06288e3b879e5ac9155508f6ddab75c175039e0277486fa"
+  "8f603aded58f0a3c97d4498550dd070a356465109229f3c98cc61f2571bb1089"
+  "caa7c0ce3c8eaf05d333dc9458683f4b0375e5eeb604f6fb2c8585f7b70d398b"
+  "9f70fcb17bf9572d969aee69ed34c5d8b54c896c60dfe057da37f2e51d46895f"
+  "000644283159637882bf8901a57bb39dce29319717e86274720c44676a158d71"
+  "3ea060c1b76470a7769dc1f32010a99fcc9a2e868a58c429cd8e8251fa1330c8"
+  "db770d87e491b0dc26d34e96a63188232f39198db157048fed5d111391a63cd0"
+  "b5c1ff605296b0e5a55ae6876db434fded62ae0c947e153f758d7b8a58c2c3dd"
+  "37b172bc9b594f9b60460f6d5c4ac1eb6af723ecccbdfa2c213308223a8a420f"
+  "93821e13b3c511b5390f9fb79f476f738d66e3656889bf076e906897e614fed2"
+  "a7203a8f8e9daea85698d5912f25cca6fecae3e4097b188a0c31ed2d58e13c61"
+  "0b8f835b0c154aaa01f612bfcf1bdcd41f86f1088f1226f2d3d6fa8155cb80a0"
+  "805d112122af03d0fe2769eacaaaf5a9eac2c4b97e862a5b2cf0eb95862a7efb"
+  "c33219daa12e7872cf7ac8a1b86a2f3e0592ebadd7e756bf11d16d9a7725cf9b"
+  "09576f06d0ad805e6851defdd63434840729c3bcc5cf19db732f00298dcdb5d9"
+  "38de61c668e42f36a6b8acd564f3044b283d0cd61ebdb3947c490a99e297a2d5"
+  "dccea16d03c0a3897b4ce085db676ae4bb2777f7e2b1755c04c0f92efa894b01"
+  "fa8a29e01a5332ba78801ae269b0d1e33b2777e19cc1c23aa0c487b884236858"
+  "536d6b8808a5c0765e058a8dc98f0ed667d6e14747708ca885aacbd21a99e795"
+  "829203cf37b7bdc4ac0cbee206d40eb48bb8d8f6d73fba0c0e6dec8cd25a3448"
+  "dd03ef56f4695c7bf967072df97cdfa3884c9a816b2da8515779da2b2879145b"
+  "4089a5a036eff1c3e646415b30ee3d1455b942a122fe427d4f087cd417963c5e"
+  "e410ce34f8337aabe2e105af14f44669f29cfae40f92f90b107323cf8f4188a9"
+  "0efa37c16887eea4ccd579e5de52bf09708893d93c7b0d4656d5a13e0bc9a07f"
+  "87148203cbda28421d76fffbd7d3cd6c1fc0d6dae2843c248870274d6512a388"
+  "d029034e49c3bb0843cb540d60a3f2d8e5c2fda70e6856427a3d41f383e8bda9"
+  "6ead0c9b236f942bd2b059996730f349861b9e99ed462618fef1c0aefccb289c"
+  "d7728d17a313230a7a12b99106c5d588c3ac7a65950211b2aac455b258ca0b30"
+  "108d04d1e160153a9dc92e676010b79cc8a5de1ec0112a997db0a834a8457420"
+)
+
+package() {
+  local models_dir="$pkgdir/usr/share/universal-translator/models"
+  install -dm755 "$models_dir"
+
+  for archive in "$srcdir"/*.tar.gz; do
+    local short_name
+    short_name="$(basename "$archive" .tar.gz)"
+
+    local destination="$models_dir/$short_name"
+    install -dm755 "$destination"
+    bsdtar -xf "$archive" -C "$destination" --strip-components=1
+  done
+}

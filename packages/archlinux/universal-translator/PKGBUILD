@@ -1,0 +1,37 @@
+# Maintainer: Cookie Engineer <@cookiengineer>
+
+# Set this to the git repository hosting the universal-translator source.
+_git_repo="https://github.com/cookiengineer/universal-translator.git"
+
+pkgname=universal-translator
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Offline GTK4 machine translation client built on the Bergamot/Marian engine"
+arch=('x86_64')
+url="https://github.com/cookiengineer/universal-translator"
+license=('MIT')
+depends=('gtk4' 'openblas' 'gcc-libs')
+makedepends=('go' 'cmake' 'ninja' 'gcc' 'openblas' 'pcre2')
+source=("$pkgname::git+$_git_repo")
+sha256sums=('SKIP')
+
+build() {
+  cd "$pkgname"
+
+  export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+  export GOPATH="$srcdir/gopath"
+  export GOCACHE="$srcdir/gocache"
+  export CGO_CFLAGS="$CFLAGS"
+  export CGO_CXXFLAGS="$CXXFLAGS"
+  export CGO_CPPFLAGS="$CPPFLAGS"
+  export CGO_LDFLAGS="$LDFLAGS"
+
+  make build
+}
+
+package() {
+  cd "$pkgname"
+
+  install -Dm755 bin/universal-translator "$pkgdir/usr/bin/universal-translator"
+  install -Dm755 bin/libbergamot_bridge.so "$pkgdir/usr/lib/libbergamot_bridge.so"
+}
