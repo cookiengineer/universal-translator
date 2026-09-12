@@ -4,6 +4,8 @@ import (
 	"os"
 	"path/filepath"
 	"testing"
+
+	"universal-translator/types"
 )
 
 func writeFakeModel(t *testing.T, base string, shortName string) string {
@@ -12,7 +14,7 @@ func writeFakeModel(t *testing.T, base string, shortName string) string {
 	if err := os.MkdirAll(directory, 0o755); err != nil {
 		t.Fatal(err)
 	}
-	if err := os.WriteFile(filepath.Join(directory, ModelConfigFileName), []byte("models: []\n"), 0o644); err != nil {
+	if err := os.WriteFile(filepath.Join(directory, types.ModelConfigFileName), []byte("models: []\n"), 0o644); err != nil {
 		t.Fatal(err)
 	}
 	return directory

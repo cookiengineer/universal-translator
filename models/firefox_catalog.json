@@ -1,0 +1,3026 @@
+{
+  "models": [
+    {
+      "shortName": "fx-af-en",
+      "name": "Afrikaans-English",
+      "sourceName": "Afrikaans",
+      "sourceCode": "af",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.afen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143421--c2855f70-93d8-425e-a3de-75076ae8f8fe--bb7dcf31-5fc2-42ca-9d23-02185b3983ea.bin",
+          "sha256": "d43baa7ab565a6cdc2bc230a4ab6fcaf7b4a871e53e42cc7128e55871ef36086"
+        },
+        {
+          "filename": "lex.50.50.afen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143425--ecb42e11-64df-4f45-9416-d328a21cc8f9--359df2ae-3ec2-4d87-9e1d-6aaa1741cd16.bin",
+          "sha256": "c1df823cdd116180ecb8c22b3a76e8f6cb7d0eb9df55363fa2f826e5c194134e"
+        },
+        {
+          "filename": "vocab.afen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143423--f2e6306f-edb5-4437-9b5e-b39058031644--62d1c1fc-9f29-4728-af8b-952b6357ef20.spm",
+          "sha256": "b103314260d3979df36ad51a51095d81f5b306619a2543451617959822edacda"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.afen.intgemm.alphas.bin\nvocabs:\n  - vocab.afen.spm\n  - vocab.afen.spm\nshortlist:\n    - lex.50.50.afen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ar-en",
+      "name": "Arabic-English",
+      "sourceName": "Arabic",
+      "sourceCode": "ar",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.aren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d66f948a-452f-45d4-adc1-e9cb9acb8766.bin",
+          "sha256": "7b7af0282dc5f4d8805b9a298c2fa828967e3f09ca10f1942ebeea0b2cfc12fa"
+        },
+        {
+          "filename": "lex.50.50.aren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/856e509e-56c6-4b05-ab20-acd66650eaf0.bin",
+          "sha256": "4b45f14dbea40d368093a13563fc1ca48457ee70c1291c82b206f3baff210081"
+        },
+        {
+          "filename": "vocab.aren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2dc6ab68-1f3e-4149-9c7c-d3dc1e6f70c3.spm",
+          "sha256": "51b4ee3f828d10015464523d0b4f5a6c086b0b2a9bde716a581001cf6c260366"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.aren.intgemm.alphas.bin\nvocabs:\n  - vocab.aren.spm\n  - vocab.aren.spm\nshortlist:\n    - lex.50.50.aren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-az-en",
+      "name": "Azerbaijani-English",
+      "sourceName": "Azerbaijani",
+      "sourceCode": "az",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.azen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/17cd59a0-be31-45e1-b5d7-f698b138fb88.bin",
+          "sha256": "fff0b00229e42e3df56be33ec903013aea80dbdd8fc0c3673f6249ab6102490f"
+        },
+        {
+          "filename": "lex.50.50.azen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8ef112b8-ad8a-4eaf-b3ae-9e3fa17e1faa.bin",
+          "sha256": "d534a8a29537e2539cac09d23360f27291765a030d424e108b9b0cabaa593672"
+        },
+        {
+          "filename": "vocab.azen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6570476c-58d5-468c-8a31-38ddec69f8b3.spm",
+          "sha256": "9ae0beed517ad39a95b4e1ae95be4ddfdeba8b004139886d40a3a50874e16aa6"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.azen.intgemm.alphas.bin\nvocabs:\n  - vocab.azen.spm\n  - vocab.azen.spm\nshortlist:\n    - lex.50.50.azen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-be-en",
+      "name": "Belarusian-English",
+      "sourceName": "Belarusian",
+      "sourceCode": "be",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.been.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/4cd0edf5-c3cb-4e13-bf97-0057d96bf64e.bin",
+          "sha256": "3fcff7ef3102b082aeb165a6fc3e332ead2affcf7a6c91c43bb36da5add2dbb7"
+        },
+        {
+          "filename": "lex.50.50.been.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ead8f4a7-2493-4b96-a533-7a248cb26cc3.bin",
+          "sha256": "eec822f871f570f99ac70b13fe480fc6f612d37c69c047834676f1c9919d4aca"
+        },
+        {
+          "filename": "vocab.been.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/da2a9605-3c27-42ef-acfc-0003d20e4a3a.spm",
+          "sha256": "dc235e4bfc4cdc25e0e1b36e07e29435b140861b4b94b8197bc715ddc7be912f"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.been.intgemm.alphas.bin\nvocabs:\n  - vocab.been.spm\n  - vocab.been.spm\nshortlist:\n    - lex.50.50.been.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-bg-en",
+      "name": "Bulgarian-English",
+      "sourceName": "Bulgarian",
+      "sourceCode": "bg",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.bgen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/7f0b6e9a-fa0f-44db-b5f2-337d76a22d8c.bin",
+          "sha256": "71900847a98cf66bd1d05eaafc23a794c8c1285fb3f0e2ecd2849e6f81c79d53"
+        },
+        {
+          "filename": "lex.50.50.bgen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/dc0f48bb-af79-4b7b-96ee-048fea3d21e0.bin",
+          "sha256": "71e8d040a2f63705bec232cd186f32e9f9a78e7968216516c4535589f6a828f9"
+        },
+        {
+          "filename": "vocab.bgen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6471c3e7-0c49-4615-93f0-6d7c1482f895.spm",
+          "sha256": "24ce87ba39216714f222ca6a105f30b1863a7ef8b58c9fafdc7a66184e9813a5"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.bgen.intgemm.alphas.bin\nvocabs:\n  - vocab.bgen.spm\n  - vocab.bgen.spm\nshortlist:\n    - lex.50.50.bgen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-bn-en",
+      "name": "Bengali-English",
+      "sourceName": "Bengali",
+      "sourceCode": "bn",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.bnen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/85d95842-111a-4a51-af21-03c9c3d6aee9.bin",
+          "sha256": "14c1d9e92918e8d04cb0ed351ae386c3b5d5c62a6dc601d9515f4c7e6c2a3a56"
+        },
+        {
+          "filename": "lex.50.50.bnen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/1de6123f-1436-4af9-b073-2ab14414705d.bin",
+          "sha256": "aea901a6bd8722962551c0349b8570af684444028b62bbff465be9931e6e9800"
+        },
+        {
+          "filename": "vocab.bnen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/281c885c-bd1b-4c57-86c7-07c39e9c0641.spm",
+          "sha256": "8a6a4de992ccd47bae4227ec6420866374137d6cc88ed6e8b2f16b36322a9d37"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.bnen.intgemm.alphas.bin\nvocabs:\n  - vocab.bnen.spm\n  - vocab.bnen.spm\nshortlist:\n    - lex.50.50.bnen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-bs-en",
+      "name": "Bosnian-English",
+      "sourceName": "Bosnian",
+      "sourceCode": "bs",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.bsen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ac358887-9bdc-438f-b12b-ab6087612abe.bin",
+          "sha256": "47cf33ca3ebadf7e541e19b7cb5ff82d5be8c793fbdcd6133f68cb53333ac0cb"
+        },
+        {
+          "filename": "lex.50.50.bsen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9a1247a4-a17d-42a3-9388-3d39557922c1.bin",
+          "sha256": "f19947ad4c95c8f2ded27052af2007dc9facbaba5dfac6e84c5ea2c0a0899c09"
+        },
+        {
+          "filename": "vocab.bsen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a88d9f62-ecf0-4f8b-bbce-19a48088e766.spm",
+          "sha256": "712cf46266895164bf58903654b5d5f9d02c927c34a3b9f2784f082f356f3434"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.bsen.intgemm.alphas.bin\nvocabs:\n  - vocab.bsen.spm\n  - vocab.bsen.spm\nshortlist:\n    - lex.50.50.bsen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ca-en",
+      "name": "Catalan-English",
+      "sourceName": "Catalan",
+      "sourceCode": "ca",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.caen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/af0c1e43-2d39-4761-99fe-df4eb4c8f9f5.bin",
+          "sha256": "3a315266490d87f72adf9e5387ee567b2fb76a30018e51586b882b1d87bf5aed"
+        },
+        {
+          "filename": "lex.50.50.caen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/131e044c-85ed-4287-9ee0-4aebe393b15f.bin",
+          "sha256": "a648be17d6f008feee687b455d00dbfaedba2ead8bee32658783c4325a8d3ece"
+        },
+        {
+          "filename": "vocab.caen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2c8f521d-17af-455b-a52f-b3236013f936.spm",
+          "sha256": "10a1f25e5640f596b547190082f87ba4994f8714693904c82a35d965b9cc7470"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.caen.intgemm.alphas.bin\nvocabs:\n  - vocab.caen.spm\n  - vocab.caen.spm\nshortlist:\n    - lex.50.50.caen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-cs-en",
+      "name": "Czech-English",
+      "sourceName": "Czech",
+      "sourceCode": "cs",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.csen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a8898155-dae0-443b-9066-1b77c0ad6656.bin",
+          "sha256": "4ee5b7906f90ad2407232c077581a247b41ac3886d785be82c5d3657433106ae"
+        },
+        {
+          "filename": "lex.50.50.csen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c5a74df9-e6df-421e-8241-f9106239dbdd.bin",
+          "sha256": "4c302fa188e65ddc55d8191a632e08f66dde7a060cc93df55ef83f0629548385"
+        },
+        {
+          "filename": "vocab.csen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/52a0f5ad-c3ae-4ab7-b615-3785e71c4805.spm",
+          "sha256": "89c4f6f5cadbc72b25b30079fabf655b897a1bbeaf3eb8adf95d469e10ece265"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.csen.intgemm.alphas.bin\nvocabs:\n  - vocab.csen.spm\n  - vocab.csen.spm\nshortlist:\n    - lex.50.50.csen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-da-en",
+      "name": "Danish-English",
+      "sourceName": "Danish",
+      "sourceCode": "da",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.daen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/80b27539-da6a-4e69-90b5-138975866a2d.bin",
+          "sha256": "2c1ace24220c905404bbb1de14bfeda8a391ef8d6c56f3b193a9d3e340d99b12"
+        },
+        {
+          "filename": "lex.50.50.daen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f5eb2acc-9170-4ad6-9251-019dc107692a.bin",
+          "sha256": "e5f50fba646e0d3cedf2957575aa84c3bdca6798ce32ccd63c956fc043d774a3"
+        },
+        {
+          "filename": "vocab.daen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/492756d4-6932-4465-9ebf-dd402fb2e487.spm",
+          "sha256": "b9392fcd9c53b802628d33a160f6eb52ca3d25a07ec9e015ab93b6bd5c7e8033"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.daen.intgemm.alphas.bin\nvocabs:\n  - vocab.daen.spm\n  - vocab.daen.spm\nshortlist:\n    - lex.50.50.daen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-de-en",
+      "name": "German-English",
+      "sourceName": "German",
+      "sourceCode": "de",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.deen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8e3df11a-c2fc-422a-bc2d-ae234dab44c9.bin",
+          "sha256": "1980225d00dc5645491777accff5b3c9d20b92eff67a25135f1cf8fe2ed8fb8f"
+        },
+        {
+          "filename": "lex.50.50.deen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e2f7beb4-b45d-49da-b83e-ff421ad1268c.bin",
+          "sha256": "2f7c0f7bbce97ae5b52454074a892ba7b7610fb98e3c5d341e4ca79f0850c4de"
+        },
+        {
+          "filename": "vocab.deen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9fb51529-8473-4138-a9e0-0a588ab574f0.spm",
+          "sha256": "417668f2ed297970febafb5b079a9d5ebc4ed0b3550ac8386d67a90473a09bd7"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.deen.intgemm.alphas.bin\nvocabs:\n  - vocab.deen.spm\n  - vocab.deen.spm\nshortlist:\n    - lex.50.50.deen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-el-en",
+      "name": "Greek-English",
+      "sourceName": "Greek",
+      "sourceCode": "el",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.elen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/027aaa60-3ef8-437d-a9d2-fb6b801e72a4.bin",
+          "sha256": "0a43c3716156061494d995d0c88113e789f8d919e0c88a15bc1ad360e0482a8c"
+        },
+        {
+          "filename": "lex.50.50.elen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2a3b9057-540f-480b-934f-60e0833f0b87.bin",
+          "sha256": "2c969b069b3d230feddd17db2d74eb658a9b33b960d2d40adbca5496c9784e85"
+        },
+        {
+          "filename": "vocab.elen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/423d004f-9f48-46a0-b320-1d8456cbdc63.spm",
+          "sha256": "e1a1298cc2cf3968f3d7cc3b36bc463a4e1bf154272e8fb2f15142b54edc4349"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.elen.intgemm.alphas.bin\nvocabs:\n  - vocab.elen.spm\n  - vocab.elen.spm\nshortlist:\n    - lex.50.50.elen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-af",
+      "name": "English-Afrikaans",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Afrikaans",
+      "targetCode": "af",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enaf.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143343--ff4582bd-2cc8-4b84-856c-c34434d8c376--bf1692b0-711d-4a8f-a4bb-6dbbf570312c.bin",
+          "sha256": "afc1dcb25774e61f513fe722e037744a18c23063ba799bb01f5cdec5cc79b502"
+        },
+        {
+          "filename": "lex.50.50.enaf.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143334--a5b4cc20-b5f5-4af7-aaf2-604612bdf57e--9c2f64d1-8eb1-4dd3-96d1-aff79842bc26.bin",
+          "sha256": "591e3465c6e5e8920e911cae36e1d92c61abe92b2d5ef9bf2f1d8b5825bba20f"
+        },
+        {
+          "filename": "vocab.enaf.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143345--ec36146d-a3db-4fea-a08f-b9af89bd9789--2a0374f0-4539-4477-ad1e-642dc951f217.spm",
+          "sha256": "8d19c43df2142696227eb3462c6693bbc8c62cbd47b9a7372f86df2698864438"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enaf.intgemm.alphas.bin\nvocabs:\n  - vocab.enaf.spm\n  - vocab.enaf.spm\nshortlist:\n    - lex.50.50.enaf.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ar",
+      "name": "English-Arabic",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Arabic",
+      "targetCode": "ar",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enar.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e282aa49-a77e-466e-b1b7-f98f34a9ea58.bin",
+          "sha256": "ae659d7045fc2e5d6ba50583586a5d94ee4358d92c019847e37b57a0e627faa8"
+        },
+        {
+          "filename": "lex.50.50.enar.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d821aec4-485b-4747-b643-6e63cda5117d.bin",
+          "sha256": "2b7194817c5dd9225ca90c0d908cc92e1d6d1f45625781a5feb037ac568d6a61"
+        },
+        {
+          "filename": "vocab.enar.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/793d9667-7929-4375-855d-96bbed2f113d.spm",
+          "sha256": "8d93c54aa5e2044c416ec680b5ff9af0227bd698521666e8b1a1ea1b041fbae8"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enar.intgemm.alphas.bin\nvocabs:\n  - vocab.enar.spm\n  - vocab.enar.spm\nshortlist:\n    - lex.50.50.enar.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-az",
+      "name": "English-Azerbaijani",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Azerbaijani",
+      "targetCode": "az",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enaz.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/caf9be8c-0650-4f5d-b353-1e20817c91db.bin",
+          "sha256": "9c87aa09ff4f81c320993fe412624ca3584fe9ccf5371247d64f1117dffcf168"
+        },
+        {
+          "filename": "lex.50.50.enaz.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8b7460cc-c1d2-47cb-8fd0-884d7f16d6b0.bin",
+          "sha256": "f87f5de2674cf48562df60843a658e0000bedfd75aa8ffa5e251e2cb1321f255"
+        },
+        {
+          "filename": "vocab.enaz.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c4842ab3-371d-4752-8d8c-9a54ed6944f7.spm",
+          "sha256": "afc1f4d7d20cd04addd3bc605acfdb83afbf62fb76d1a6bbc94cf42bf0286108"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enaz.intgemm.alphas.bin\nvocabs:\n  - vocab.enaz.spm\n  - vocab.enaz.spm\nshortlist:\n    - lex.50.50.enaz.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-bg",
+      "name": "English-Bulgarian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Bulgarian",
+      "targetCode": "bg",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enbg.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/23faa0b3-fa97-4e8a-a1db-28b8f2f48ea8.bin",
+          "sha256": "02715a7a81a610a37439d4f788a6f3efcc1ecb39618bc4184442a39378907dfe"
+        },
+        {
+          "filename": "lex.50.50.enbg.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/793ae4c6-6689-40c6-ac76-dea8afac39b6.bin",
+          "sha256": "0f9b794b6f8a9c4b5b781fde49391852b398184b730f89a09428cf562e8bede6"
+        },
+        {
+          "filename": "vocab.enbg.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/394361e9-26df-46d9-b092-91952b70350b.spm",
+          "sha256": "b14e44beb653db924c826e1696bcfab23ca9fd3e479baf8bea67d0be77432192"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enbg.intgemm.alphas.bin\nvocabs:\n  - vocab.enbg.spm\n  - vocab.enbg.spm\nshortlist:\n    - lex.50.50.enbg.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-bn",
+      "name": "English-Bengali",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Bengali",
+      "targetCode": "bn",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enbn.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9a2075cf-632f-4ecb-80ab-3d35a0e400d3.bin",
+          "sha256": "b63c8d5f8fdc1fcb8bbb2d20c751faab94af67ee1822427665119c93a11f6596"
+        },
+        {
+          "filename": "lex.50.50.enbn.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e9b2433f-8399-4384-a6e6-6fd503486072.bin",
+          "sha256": "74ad4234a0a9cf57b21d99b34fefc14f7c731d7e76da7940eb0155c13a234b5e"
+        },
+        {
+          "filename": "vocab.enbn.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/63327f5f-9489-4757-a90a-a0f2b43f78e1.spm",
+          "sha256": "8895bebb290adc2a5ef46710d81be13d341883a8c6c233e0c060f968df0deef4"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enbn.intgemm.alphas.bin\nvocabs:\n  - vocab.enbn.spm\n  - vocab.enbn.spm\nshortlist:\n    - lex.50.50.enbn.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-bs",
+      "name": "English-Bosnian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Bosnian",
+      "targetCode": "bs",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enbs.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192526--41a84edd-7e70-4a36-ba50-0f544acfb51d--f2daa80a-0ee1-4e4e-956f-f89b512c8e2a.bin",
+          "sha256": "27575113fffad6c45a0bad36bd1823c4f319ed30f65ec134815b67bdae0d9f8d"
+        },
+        {
+          "filename": "lex.50.50.enbs.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192529--bc21738d-bea2-4e66-bc44-e61cdf5e396d--0682af00-d069-4865-a5fc-e4871dec96b6.bin",
+          "sha256": "6847523f4d5df9425cda606e73f404c07e19452dac7659bdcc92743c46cba3c0"
+        },
+        {
+          "filename": "vocab.enbs.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192531--fa88b6e0-55a7-4b12-b71e-5c1c6f29d23a--c3539411-be49-4b90-a2ac-79db102c8bc0.spm",
+          "sha256": "dfed9c3e08e85a22feac7748a20fa981dca94f358115af2f45d704b9cc944cc8"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enbs.intgemm.alphas.bin\nvocabs:\n  - vocab.enbs.spm\n  - vocab.enbs.spm\nshortlist:\n    - lex.50.50.enbs.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ca",
+      "name": "English-Catalan",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Catalan",
+      "targetCode": "ca",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enca.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2a25e493-cc96-4da0-b3d7-efbf5e3ec440.bin",
+          "sha256": "3fff1f35345b69c8507993d1c75bef9bb7a46effcb18118dff9873c6cdc9c2e1"
+        },
+        {
+          "filename": "lex.50.50.enca.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0586f6fa-d677-4322-8c3e-38c7a70dd04a.bin",
+          "sha256": "88c3229e6fc203545b5ec8131e31c589a79dc0ba21c5b19b786c9ec8f6bb2733"
+        },
+        {
+          "filename": "vocab.enca.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/db8b8599-a90b-409f-a110-88d25f8c7920.spm",
+          "sha256": "4fbb317b58e31b330f642a8ecc4c4cb719e328b6ef412624f24e9705898cf72a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enca.intgemm.alphas.bin\nvocabs:\n  - vocab.enca.spm\n  - vocab.enca.spm\nshortlist:\n    - lex.50.50.enca.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-cs",
+      "name": "English-Czech",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Czech",
+      "targetCode": "cs",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.encs.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c8e32704-84e6-4fc5-9870-34b55e557f58.bin",
+          "sha256": "12ad256d589abf3ec351957c1749d7915c06a28debab0370b7a47a6b4bb19633"
+        },
+        {
+          "filename": "lex.50.50.encs.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/153fe7cc-4068-4ceb-8f50-e4283bf178bd.bin",
+          "sha256": "f34042e1446f1b892b2846eff4e96ef2554067d9f8af495036254a1f64a7c058"
+        },
+        {
+          "filename": "vocab.encs.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/fbdce1e6-1431-4a23-bde9-c1f59a020669.spm",
+          "sha256": "3c894bbd9e75de0966ab9fe5a427178817216d1d07aa7fe27b9cb7dbb666d5ef"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.encs.intgemm.alphas.bin\nvocabs:\n  - vocab.encs.spm\n  - vocab.encs.spm\nshortlist:\n    - lex.50.50.encs.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-da",
+      "name": "English-Danish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Danish",
+      "targetCode": "da",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enda.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b832f3bb-5961-4c78-93de-509b9c750abe.bin",
+          "sha256": "0157ed1162dd5a7a0fc6a3cc86014ec21cb47a8febf77164df24d8921270bb29"
+        },
+        {
+          "filename": "lex.50.50.enda.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3ef0b3ec-7989-47b3-affb-7098159745a0.bin",
+          "sha256": "d183786cae59a5df06d5b00c58e3ec2a5791d302240a65540fc6a1da2b66eada"
+        },
+        {
+          "filename": "vocab.enda.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8dbcff2f-5e41-4163-adc5-5e5caea9b675.spm",
+          "sha256": "b06349522bf053e4a6f01efc4d1450e4fe35717a938a82831988c087229c9619"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enda.intgemm.alphas.bin\nvocabs:\n  - vocab.enda.spm\n  - vocab.enda.spm\nshortlist:\n    - lex.50.50.enda.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-de",
+      "name": "English-German",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "German",
+      "targetCode": "de",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ende.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8a830d1c-e167-4238-8473-4065c65c02d2.bin",
+          "sha256": "b3e980d6602ab0bdfe8d9315cb5fc282a16bb1c8dccf38e70945c584551c4318"
+        },
+        {
+          "filename": "lex.50.50.ende.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/db204e54-8565-4bba-aa52-1e857bcc68a5.bin",
+          "sha256": "f03eb8245042feb7a5800815b8d0dc215d7a60691632405b65c461d250cedbe6"
+        },
+        {
+          "filename": "vocab.ende.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a5117ec6-0b87-4ae1-9c2e-5151de59af1d.spm",
+          "sha256": "417668f2ed297970febafb5b079a9d5ebc4ed0b3550ac8386d67a90473a09bd7"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ende.intgemm.alphas.bin\nvocabs:\n  - vocab.ende.spm\n  - vocab.ende.spm\nshortlist:\n    - lex.50.50.ende.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-el",
+      "name": "English-Greek",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Greek",
+      "targetCode": "el",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enel.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/26dead91-e46c-442c-85d0-a6fe13fad55a.bin",
+          "sha256": "724b358d399c6b23444de36d76e9e2630c7024c29d9e617323b820a11631535a"
+        },
+        {
+          "filename": "lex.50.50.enel.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/73568803-85e3-423a-8fb8-7f755a6ffed2.bin",
+          "sha256": "c2acd9241eb8a1e5b13a43efa5723628839d6e3b3dc7b93e2f20990a6ab81e24"
+        },
+        {
+          "filename": "vocab.enel.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/79a76f88-a4c4-4b1d-b726-15c6a60bebcc.spm",
+          "sha256": "0ffc5569d7f400f03539c5fc3e28ff35f1d0381eba0ec866c44aef0c26f3ce5e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enel.intgemm.alphas.bin\nvocabs:\n  - vocab.enel.spm\n  - vocab.enel.spm\nshortlist:\n    - lex.50.50.enel.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-es",
+      "name": "English-Spanish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Spanish",
+      "targetCode": "es",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enes.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/50fbae09-5219-4393-ad75-28b23f44a17d.bin",
+          "sha256": "fa7460037a3163e03fe1d23602f964bff2331da6ee813637e092ddf37156ef53"
+        },
+        {
+          "filename": "lex.50.50.enes.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d2d8de5b-b41e-4eb0-b978-dd48725e3e77.bin",
+          "sha256": "3a113d713dec3cf1d12bba5b138ae616e28bba4bbc7fe7fd39ba145e26b86d7f"
+        },
+        {
+          "filename": "vocab.enes.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e9c774ba-69ff-4951-8783-895aeeb05439.spm",
+          "sha256": "909b1eea1face0d7f90a474fe29a8c0fef8d104b6e41e65616f864c964ba8845"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enes.intgemm.alphas.bin\nvocabs:\n  - vocab.enes.spm\n  - vocab.enes.spm\nshortlist:\n    - lex.50.50.enes.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-et",
+      "name": "English-Estonian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Estonian",
+      "targetCode": "et",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enet.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f2bf6812-5286-479a-b157-3ac715ef2336.bin",
+          "sha256": "a28874a8b702a519a14dc71bcee726a5cb4b539eeaada2d06492f751469a1fd6"
+        },
+        {
+          "filename": "lex.50.50.enet.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0142f35c-cddd-4c25-bd66-4a78acd9d168.bin",
+          "sha256": "3d1b40ff43ebef82cf98d416a88a1ea19eb325a85785eef102f59878a63a829d"
+        },
+        {
+          "filename": "vocab.enet.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/23fb2442-5e99-4416-868d-4b6d25c8399f.spm",
+          "sha256": "e3b66bc141f6123cd40746e2fb9b8ee4f89cbf324ab27d6bbf3782e52f15fa2d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enet.intgemm.alphas.bin\nvocabs:\n  - vocab.enet.spm\n  - vocab.enet.spm\nshortlist:\n    - lex.50.50.enet.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-eu",
+      "name": "English-Basque",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Basque",
+      "targetCode": "eu",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.eneu.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192556--eab96ef5-5666-40b0-a384-68f0a8f364e2--31f6154b-707f-430a-9cfe-0084c1b6ad99.bin",
+          "sha256": "f28d03817b718806c9262e3d76960efb8cbd04d0721307c8e23edcae9364150a"
+        },
+        {
+          "filename": "lex.50.50.eneu.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192543--c0d951c2-820d-42f1-9654-cd6318e04e81--c53edb46-65e3-4743-8dd0-987508c9b0d8.bin",
+          "sha256": "a6a856a89acc6bbf970b6c5e51fe705bee6fe2b8007a3c31ae54ca2c6fd69aad"
+        },
+        {
+          "filename": "vocab.eneu.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192546--5f7809e6-5fdf-4f00-8540-6bf4060a8340--06a3091e-196c-429c-86a9-1f2151e9164e.spm",
+          "sha256": "d0cbd7a04e20c3a45bcf29260967db26a97c4787c03a9d867df0465bc104cec2"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.eneu.intgemm.alphas.bin\nvocabs:\n  - vocab.eneu.spm\n  - vocab.eneu.spm\nshortlist:\n    - lex.50.50.eneu.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-fa",
+      "name": "English-Persian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Persian",
+      "targetCode": "fa",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enfa.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8e412aee-68b4-46cd-aa00-1e7357db24c1.bin",
+          "sha256": "456ad3952bcc59d208c76baba4dcef340ee4239416bd760d6fec27f9a16228f8"
+        },
+        {
+          "filename": "lex.50.50.enfa.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8ec72d9b-f5b6-40bd-a23d-cedb2c757e92.bin",
+          "sha256": "8542e7fb2bfa3a11b89f8392b8adb0dbbf863cd34569488b7c4535a91c3ae6b4"
+        },
+        {
+          "filename": "vocab.enfa.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/203a10f4-6885-49c2-89e3-e7a4f3e3e738.spm",
+          "sha256": "6435d3d9d766159fe192ab90892540b438ad7adb7ab4ea4049f68d0b4cdea3bd"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enfa.intgemm.alphas.bin\nvocabs:\n  - vocab.enfa.spm\n  - vocab.enfa.spm\nshortlist:\n    - lex.50.50.enfa.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-fi",
+      "name": "English-Finnish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Finnish",
+      "targetCode": "fi",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enfi.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/12b68b63-806f-489a-bacc-7028645b31a9.bin",
+          "sha256": "3d8250c4c2e57efcf9a8e42fafdbd83ea98cea36fe8e4dafcf99f4d4bfc1dacf"
+        },
+        {
+          "filename": "lex.50.50.enfi.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/27b1577f-065e-443d-9e15-f4889495a993.bin",
+          "sha256": "4c2b197d3225140a6496f400013d83af98c87f0f984185c907e0ac468e37b3a5"
+        },
+        {
+          "filename": "vocab.enfi.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/651e17cb-89dd-4b86-abf5-e3dd12925c2c.spm",
+          "sha256": "57d9f92c28b75f9595df5ce3df68e0216be16522c7a883b9e5ea42c0166f9221"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enfi.intgemm.alphas.bin\nvocabs:\n  - vocab.enfi.spm\n  - vocab.enfi.spm\nshortlist:\n    - lex.50.50.enfi.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-fr",
+      "name": "English-French",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "French",
+      "targetCode": "fr",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enfr.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/762a23ff-317e-4f0d-95ff-e9d95674a521.bin",
+          "sha256": "0678019c4d74c8c81d2de17e3e58d3aba5f5eb48f5595d9240c17f69d30461de"
+        },
+        {
+          "filename": "lex.50.50.enfr.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/7178ceaa-3ae6-49cb-a7f0-a72bdded2d9b.bin",
+          "sha256": "38fb44bad1fd5f1e6bfdcf15cc8baa09d61aad2a4f9c587914e24e7b5c25c32c"
+        },
+        {
+          "filename": "vocab.enfr.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/808114a9-eff2-47c3-a981-b7119105c40c.spm",
+          "sha256": "4c84b95b62c930f0791466d73eb996841eef474c96d0c2f0e6c6d80640f2005a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enfr.intgemm.alphas.bin\nvocabs:\n  - vocab.enfr.spm\n  - vocab.enfr.spm\nshortlist:\n    - lex.50.50.enfr.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-gl",
+      "name": "English-Galician",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Galician",
+      "targetCode": "gl",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.engl.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153845--3408c3e9-a4a9-4eb6-b791-e8bb0dde1d51--9d656b6e-0c5e-43a7-8cc3-367c0befe133.bin",
+          "sha256": "bec08e5408932c3813ccfb565ab7003d334dd6ca148c9d2bd074e17b8c0be1b1"
+        },
+        {
+          "filename": "lex.50.50.engl.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153847--5503a4ee-15d9-4cc0-ab84-33de89e97ab1--910f6134-7bea-4a7e-beab-00bc391e7ebd.bin",
+          "sha256": "28621d3797a945ca0112c872640686586e77957b5421b0ef95886806b09d8874"
+        },
+        {
+          "filename": "vocab.engl.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153833--30d1a7a7-1b42-43a2-8df8-0accf391ff1b--88306c26-9356-4156-827b-4efd76343d52.spm",
+          "sha256": "da044600f961c4c977e747cc9fb8afd4c05829629033d344a575a93807ea1cba"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.engl.intgemm.alphas.bin\nvocabs:\n  - vocab.engl.spm\n  - vocab.engl.spm\nshortlist:\n    - lex.50.50.engl.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-gu",
+      "name": "English-Gujarati",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Gujarati",
+      "targetCode": "gu",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.engu.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a2576987-0797-4a60-a266-5f155d067135.bin",
+          "sha256": "0f2c8bc7f13ecb9b89459e8fd9af6d8736e0f6b1c8f8a80f747fcdc030d0a588"
+        },
+        {
+          "filename": "lex.50.50.engu.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5b0e3636-9bdd-4997-9a67-7eb67308e22d.bin",
+          "sha256": "5699d5f0f6265766c57e8e860596091d16a7ea68e9e181a3310b8b52d79f8b5e"
+        },
+        {
+          "filename": "vocab.engu.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/1aca3a35-aa44-4893-a1da-355b5a4108bf.spm",
+          "sha256": "74ce11b041bfc527eedded78594498419c781c81a3fcb3384a3485af70cc2325"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.engu.intgemm.alphas.bin\nvocabs:\n  - vocab.engu.spm\n  - vocab.engu.spm\nshortlist:\n    - lex.50.50.engu.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-he",
+      "name": "English-Hebrew",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Hebrew",
+      "targetCode": "he",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enhe.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/507ad0e2-1a10-419f-867c-04bb09c4566b.bin",
+          "sha256": "e37ac6e6f131704c85deb94a657aa20afbb44db2879f44aec9c33a34f4467587"
+        },
+        {
+          "filename": "lex.50.50.enhe.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/31eb1832-fdd0-41f2-91f6-355866dd4232.bin",
+          "sha256": "8795f4c5e19b4a196c9ed394c275a28a09e5ddbbf47ae16faa4446bf2b8bc7d9"
+        },
+        {
+          "filename": "vocab.enhe.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bf209be5-23fb-476e-91dc-ad902de664a1.spm",
+          "sha256": "672b334afa84011200fdaee02c2fc7810910c35ae9ea7619be073c851703ce9e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enhe.intgemm.alphas.bin\nvocabs:\n  - vocab.enhe.spm\n  - vocab.enhe.spm\nshortlist:\n    - lex.50.50.enhe.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-hi",
+      "name": "English-Hindi",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Hindi",
+      "targetCode": "hi",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enhi.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/32ad63e2-0283-4c87-8fa8-d843c322c87b.bin",
+          "sha256": "18682fa6aa1c1b2f78a6fcbcb354755094d623e65436ef7821720c5213e11a49"
+        },
+        {
+          "filename": "lex.50.50.enhi.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e69b3f71-49b1-4e61-83f5-2abf46666476.bin",
+          "sha256": "b473f6fe41cdb7c1dbeeb714fc50314feab77b0af2b2da6f7830ee14492dd847"
+        },
+        {
+          "filename": "vocab.enhi.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5d4cb145-1f61-4913-973f-d7643c06b917.spm",
+          "sha256": "8017cbf812bae400794c424699b89de90db06ac7a4ca67a420013a9f68b270c1"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enhi.intgemm.alphas.bin\nvocabs:\n  - vocab.enhi.spm\n  - vocab.enhi.spm\nshortlist:\n    - lex.50.50.enhi.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-hr",
+      "name": "English-Croatian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Croatian",
+      "targetCode": "hr",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enhr.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/08947d77-90d5-40ef-a896-560e7cf3c0c7.bin",
+          "sha256": "29ba32235778da3e38cfeb0d7f36eaf8dc37c961ff8651d86f7cae7e29e97d88"
+        },
+        {
+          "filename": "lex.50.50.enhr.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9d7acc73-dba2-4d5e-9e6b-3b58a6ef6a27.bin",
+          "sha256": "b811d67aca11e12e6bd956c1b4a1e74c6162d71e9ac259bfff415fbb90c3f666"
+        },
+        {
+          "filename": "vocab.enhr.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/15b77cc4-84ff-47c2-b54c-6075910ef1ce.spm",
+          "sha256": "7b75fe5ee12743c787a393489d8810adc3ca6cefe0142e8993227dd125d224b3"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enhr.intgemm.alphas.bin\nvocabs:\n  - vocab.enhr.spm\n  - vocab.enhr.spm\nshortlist:\n    - lex.50.50.enhr.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-hu",
+      "name": "English-Hungarian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Hungarian",
+      "targetCode": "hu",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enhu.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ad0762f6-ae4e-4954-943c-f77b451715ce.bin",
+          "sha256": "b1415cd46ba3c45b46570af2fcce243452267b39dfc7116cfd04fd999a8ea73f"
+        },
+        {
+          "filename": "lex.50.50.enhu.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8e1d2da6-c78c-4fc7-b419-d1ab87db18c4.bin",
+          "sha256": "f4c1f6bf21528abe99a24081b61dc726a8ba7c6e6105efe09397a0b8df0499d1"
+        },
+        {
+          "filename": "vocab.enhu.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/53c61b51-af87-48e4-bffe-5ef8b1a12f51.spm",
+          "sha256": "2eee837cfdcc45c091d025f585d3fcdb293db7794e316b38a0aeff8c47a659e0"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enhu.intgemm.alphas.bin\nvocabs:\n  - vocab.enhu.spm\n  - vocab.enhu.spm\nshortlist:\n    - lex.50.50.enhu.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-id",
+      "name": "English-Indonesian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Indonesian",
+      "targetCode": "id",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enid.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0d494914-73de-49af-804a-a4bd443f0554.bin",
+          "sha256": "f81f13eef703a4e0650ffc3138a0f4bab7b6c8bfd173ef1b7bda68d16b8bc7e8"
+        },
+        {
+          "filename": "lex.50.50.enid.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a9610c56-2593-4513-b4ac-954276327788.bin",
+          "sha256": "d37f72bcab6e7bc52fd223350f95521b5810bb2486a97275f86077988fced3f4"
+        },
+        {
+          "filename": "vocab.enid.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6c49d51b-167b-4bdc-aab8-2abe32105529.spm",
+          "sha256": "61bc7db24d3b6de638a02a280580a273fe0c942ecbe8a8204b2f81978211db22"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enid.intgemm.alphas.bin\nvocabs:\n  - vocab.enid.spm\n  - vocab.enid.spm\nshortlist:\n    - lex.50.50.enid.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-is",
+      "name": "English-Icelandic",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Icelandic",
+      "targetCode": "is",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enis.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6fc94b8f-3dfd-4c2c-8d11-df3d07e0cfba.bin",
+          "sha256": "459626236a49158aa555facd23e5f594e2f8416f4ebad32e0548af94c5b1ae0c"
+        },
+        {
+          "filename": "lex.50.50.enis.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f166d353-90b1-4ae7-adc7-c4fdc44744a5.bin",
+          "sha256": "4927d2bed702141b4ddd8a5e7034b27fb17312fdb7e3cc5f455ccf2e2f6670e0"
+        },
+        {
+          "filename": "vocab.enis.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8e36da15-fa26-4ae3-a661-e6f5f92e8ff4.spm",
+          "sha256": "61b2ea10edbe4cc61e36c833cacc2f55778ed9ca860cd382729060634d4b0adb"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enis.intgemm.alphas.bin\nvocabs:\n  - vocab.enis.spm\n  - vocab.enis.spm\nshortlist:\n    - lex.50.50.enis.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-it",
+      "name": "English-Italian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Italian",
+      "targetCode": "it",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enit.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/efb14526-aff4-4826-8cf6-12e2bc44ac7d.bin",
+          "sha256": "3d7bbc4d7977e10b35f53faa79f5d5de8211f4f04baed9e7cd9dee1dcceda917"
+        },
+        {
+          "filename": "lex.50.50.enit.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d683f5a2-7a75-444c-a581-22b3c3cfaecb.bin",
+          "sha256": "351ea80fb9f366f07533c7c4836248e72d9d4aa4eb7a05b5d74891a7abb4208c"
+        },
+        {
+          "filename": "vocab.enit.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8d28b170-7607-4834-a548-2a1244f35576.spm",
+          "sha256": "603f3349657c3deb9736a0c567452d102a5a03c377dfdf1d32c428608f2cff1b"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enit.intgemm.alphas.bin\nvocabs:\n  - vocab.enit.spm\n  - vocab.enit.spm\nshortlist:\n    - lex.50.50.enit.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ja",
+      "name": "English-Japanese",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Japanese",
+      "targetCode": "ja",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enja.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/4e19636e-4644-4072-8a05-9ef695d4a3ae.bin",
+          "sha256": "59ae659f9bb63e4f81f474fe3c03d3f4499434b5f9e779fab7c12a45f31fd562"
+        },
+        {
+          "filename": "lex.50.50.enja.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/87258444-8fac-4d3c-a175-9275e9d10ffa.bin",
+          "sha256": "edfb7eb47b98a2689b804ab3614c31b24f1257aa54b1154da3d85e1ae8152d9f"
+        },
+        {
+          "filename": "srcvocab.enja.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/cdea5422-fe0d-4941-a653-ca090423e8f8.spm",
+          "sha256": "970c98d174fc01e0339fbabbf45af36a4be3f26f819ec1a5ea1189f71e091889"
+        },
+        {
+          "filename": "trgvocab.enja.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5c1a663f-5736-4100-b681-c6737fe79cb5.spm",
+          "sha256": "3b3d9f8f3a034d98d0a476f1794fa79c01e4e98a967ceb6777a66ba2d03ec1e1"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enja.intgemm.alphas.bin\nvocabs:\n  - srcvocab.enja.spm\n  - trgvocab.enja.spm\nshortlist:\n    - lex.50.50.enja.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-kn",
+      "name": "English-Kannada",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Kannada",
+      "targetCode": "kn",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enkn.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5f0a491a-4a14-4591-b1a6-0a442f4e5ad5.bin",
+          "sha256": "17a5ddc86e24f62c04aa15272930275812b5c1674bec50a877528680d5834d2d"
+        },
+        {
+          "filename": "lex.50.50.enkn.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a77bf1a9-68fc-4331-8b9d-9cb918ff0e8b.bin",
+          "sha256": "94b660f37c9c29a904b48498a7202846faaeef16f30668f356336c29cefc0f63"
+        },
+        {
+          "filename": "vocab.enkn.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5999f7f2-21e7-439e-bf95-f8a1926ea499.spm",
+          "sha256": "1d41f1f6b67a8c29fa3aabbc7758b766bdd9acdbeec7d1277ab60c8e492c8b7a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enkn.intgemm.alphas.bin\nvocabs:\n  - vocab.enkn.spm\n  - vocab.enkn.spm\nshortlist:\n    - lex.50.50.enkn.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ko",
+      "name": "English-Korean",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Korean",
+      "targetCode": "ko",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enko.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/29e88605-8576-4a8e-be94-a5ebb4a738f7.bin",
+          "sha256": "ffe5ef2ce3f2e944055e35310bab186f6a70d533a0ee4394adf716a0e383afbb"
+        },
+        {
+          "filename": "lex.50.50.enko.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/85738400-bea4-4284-ba4c-e47e465f5331.bin",
+          "sha256": "96efba97d4bb93ab362e5569bea0f115184d2f68d63b67305ee663c18e32fbeb"
+        },
+        {
+          "filename": "srcvocab.enko.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3d9dfbda-cd4f-445e-a69b-19e21e071385.spm",
+          "sha256": "8d4e3141868efd410eb86c2b60d41aa6bc6b46e4c4b2c0b85e3792493c69d802"
+        },
+        {
+          "filename": "trgvocab.enko.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bef3bc40-bc91-4739-981d-c82a9d22fd31.spm",
+          "sha256": "2ece21b28dd7022d36127d17423a74dabf544787dfc1cf614f7b565f93a4a1d3"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enko.intgemm.alphas.bin\nvocabs:\n  - srcvocab.enko.spm\n  - trgvocab.enko.spm\nshortlist:\n    - lex.50.50.enko.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-lt",
+      "name": "English-Lithuanian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Lithuanian",
+      "targetCode": "lt",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enlt.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8408eea4-cdde-4621-8b14-e8b905c33e01.bin",
+          "sha256": "1d5dcfa9a52450e37b8248bb8092f533c0cbf0d947a2dbfd9a07e361702b939c"
+        },
+        {
+          "filename": "lex.50.50.enlt.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/22bce7ef-d0c7-4538-bf24-eea9f80e7641.bin",
+          "sha256": "8ad0fcebfbd1fac0ffebb897792a20901d160482849ba6f44ce319ad0335864c"
+        },
+        {
+          "filename": "vocab.enlt.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a0f033b2-c171-4117-9cdf-ad21f718c6e7.spm",
+          "sha256": "5d38fe70ff4a50368af756b715b69519c9ee064c27cbceeabc90d4e1a10f25a8"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enlt.intgemm.alphas.bin\nvocabs:\n  - vocab.enlt.spm\n  - vocab.enlt.spm\nshortlist:\n    - lex.50.50.enlt.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-lv",
+      "name": "English-Latvian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Latvian",
+      "targetCode": "lv",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enlv.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3825a771-c780-4cde-acbe-29912393d7ba.bin",
+          "sha256": "d09e251e0aafe2e96edf9508a75e81148f15681f80eab8948a0410844109af93"
+        },
+        {
+          "filename": "lex.50.50.enlv.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/4e753d45-beb6-44bc-a2e8-30cf14a74296.bin",
+          "sha256": "db4187d71d6b99e0104f8636902ea90e847158e2a566cdb4f31014131b3d9ed7"
+        },
+        {
+          "filename": "vocab.enlv.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bfc3b8c7-3f0d-46a9-988c-9249316acee1.spm",
+          "sha256": "63146b49ce46ba1283b6956e38efdd4899d1a409cad9d2b6a06cbd4e32ca0808"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enlv.intgemm.alphas.bin\nvocabs:\n  - vocab.enlv.spm\n  - vocab.enlv.spm\nshortlist:\n    - lex.50.50.enlv.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ml",
+      "name": "English-Malayalam",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Malayalam",
+      "targetCode": "ml",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enml.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/061d2693-671d-448f-87a7-7fe7c2332180.bin",
+          "sha256": "c461749c8315f6417104cf4df32e5063e86cb101203f9629512294c1c8ab5337"
+        },
+        {
+          "filename": "lex.50.50.enml.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2de144bc-7239-482c-9df0-f5c3135a7e6d.bin",
+          "sha256": "4a37286742244a130548b79823c9707bc0e56f373361e2cb56402f82e862c2b0"
+        },
+        {
+          "filename": "vocab.enml.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8bd87d61-2179-402f-b6c4-314a3e750812.spm",
+          "sha256": "8282614894087e4ffab325cbdb3aeeba35677f770ef8f253c189b392fe1f4d52"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enml.intgemm.alphas.bin\nvocabs:\n  - vocab.enml.spm\n  - vocab.enml.spm\nshortlist:\n    - lex.50.50.enml.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-mr",
+      "name": "English-Marathi",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Marathi",
+      "targetCode": "mr",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enmr.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134729--07838b7f-0536-4c3f-8315-d68b59e31267--2df02735-8195-4429-8849-e0b52b633b74.bin",
+          "sha256": "1520f77c2f1c703b6148e4452b376ac28aec1e63c467eedec8a986864827ce8c"
+        },
+        {
+          "filename": "lex.50.50.enmr.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134731--2fae9b1a-4df4-479a-98b9-714e86c3847e--a7a45cf5-8b2a-4bea-9dfc-d6e85af5fad8.bin",
+          "sha256": "5f343589941c5445e9c27ee2d5329b6da65867590a4df79c09532aeef379bca9"
+        },
+        {
+          "filename": "vocab.enmr.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134722--c5f546d6-9229-457d-aed8-2d36f9abc6d0--2605c853-2e7d-4ea1-88fb-ed24c86c1117.spm",
+          "sha256": "f71f279069e19a9a9317fd4fcbdffa6b2c621ee6fcaa369a92046fb7fb572735"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enmr.intgemm.alphas.bin\nvocabs:\n  - vocab.enmr.spm\n  - vocab.enmr.spm\nshortlist:\n    - lex.50.50.enmr.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ms",
+      "name": "English-Malay",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Malay",
+      "targetCode": "ms",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enms.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c389f1da-0c97-47d5-adc3-6ceaa0c4af07.bin",
+          "sha256": "3d6961462ffa711413d513624d7e6399b3560c2b0994daa73b0a45699e657af8"
+        },
+        {
+          "filename": "lex.50.50.enms.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2db20d9c-6a6c-4d0a-b909-1763b402e064.bin",
+          "sha256": "be8fec4866c9ed2cf669adaea2e259c4c22f34838032eb0ee117c10fcb968c4c"
+        },
+        {
+          "filename": "vocab.enms.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/136a7b29-aea9-483d-b96d-2683a55ecdb3.spm",
+          "sha256": "c1f182330fb8c80778da36dd6e5bde59464db2390f623ea62817081cc759695a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enms.intgemm.alphas.bin\nvocabs:\n  - vocab.enms.spm\n  - vocab.enms.spm\nshortlist:\n    - lex.50.50.enms.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-nb",
+      "name": "English-Norwegian (Bokmål)",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Norwegian (Bokmål)",
+      "targetCode": "nb",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ennb.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192648--58c9706b-c41c-4717-813b-a1140166c93c--2253e5e8-c1f4-4bed-8046-4054e5315ba3.bin",
+          "sha256": "78429eb7f544361061c9d9ec2f0872adf30b76e4c9ef3dbaab1210a0f2aa19b5"
+        },
+        {
+          "filename": "lex.50.50.ennb.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192641--2b4cba8d-58c6-4a21-8352-9b041654d010--02a468ad-759c-40b0-ba2e-ef68bd2bfd3d.bin",
+          "sha256": "0780a1659ef460864ba92da6d58ca6f9056fb8ec8be507c189aeb25ce23e429f"
+        },
+        {
+          "filename": "vocab.ennb.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192642--b1c57385-f3cf-4e06-a95c-3fa639f9bdcb--0f8e2778-c18e-47ac-9d85-21d991acc7c4.spm",
+          "sha256": "cad75f2c3eccb9545b571ca32f235e6ffaae6d8a77bfa808cf8068948c421f10"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ennb.intgemm.alphas.bin\nvocabs:\n  - vocab.ennb.spm\n  - vocab.ennb.spm\nshortlist:\n    - lex.50.50.ennb.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-nl",
+      "name": "English-Dutch",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Dutch",
+      "targetCode": "nl",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ennl.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/668ec699-5377-452e-89b9-7195d58f0047.bin",
+          "sha256": "906690a58a0d72aff28bd4b941cbd0984d1e0a62958c0b21aebae378a656d822"
+        },
+        {
+          "filename": "lex.50.50.ennl.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3055493f-e59d-41f8-a681-823e3ab5ef8d.bin",
+          "sha256": "f780a6d74af4b141f551dcc0da56bab44a05a90ef53d63381269710f35eaa41b"
+        },
+        {
+          "filename": "vocab.ennl.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/18a0a000-37d5-45df-8952-6c19e0e65458.spm",
+          "sha256": "43ba3922c3bba2b76ca2e2124837c96518b0e31300b7d6d5ccce55ee10d86393"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ennl.intgemm.alphas.bin\nvocabs:\n  - vocab.ennl.spm\n  - vocab.ennl.spm\nshortlist:\n    - lex.50.50.ennl.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-pl",
+      "name": "English-Polish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Polish",
+      "targetCode": "pl",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enpl.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/62448fcb-464a-474b-b56a-37686dfe80bf.bin",
+          "sha256": "60d45f43a5ac869a80f899751d2d1f0f456da9815d26db70e4d2e0fd18ed4a8f"
+        },
+        {
+          "filename": "lex.50.50.enpl.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6b14f949-6e9e-44ff-80e5-815a07615a37.bin",
+          "sha256": "409fbf5856cec372dffe0a3aa3c89462e2efbd783557272af84800a67195c38c"
+        },
+        {
+          "filename": "vocab.enpl.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e1fa6366-7675-4d1f-992b-5b1d88b9cb4d.spm",
+          "sha256": "a1d27e6f5c0d29f406364ebf0382949d1c0affc750cec4380f3173150552f43e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enpl.intgemm.alphas.bin\nvocabs:\n  - vocab.enpl.spm\n  - vocab.enpl.spm\nshortlist:\n    - lex.50.50.enpl.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-pt",
+      "name": "English-Portuguese",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Portuguese",
+      "targetCode": "pt",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enpt.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b268bf87-94b6-4893-9da1-c4e75284ace7.bin",
+          "sha256": "8fb05a27509bea3f67d2f59506485584d5cdbdcafa82b251576c27e91bd7011e"
+        },
+        {
+          "filename": "lex.50.50.enpt.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/be3a2e24-b12e-4c0e-b07a-c7b0ba6ab421.bin",
+          "sha256": "dd0e64865277f0a1cf15a26a5b50e9e0570235afd8dab7c5e0249ad7057531d6"
+        },
+        {
+          "filename": "vocab.enpt.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/745bff57-f929-41d9-8f0f-913513cfd334.spm",
+          "sha256": "2326a27577b5ffa0b822c55fe850986961728097521de35fcc186f7d6dce72d4"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enpt.intgemm.alphas.bin\nvocabs:\n  - vocab.enpt.spm\n  - vocab.enpt.spm\nshortlist:\n    - lex.50.50.enpt.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ro",
+      "name": "English-Romanian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Romanian",
+      "targetCode": "ro",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enro.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f12620b2-d705-4d7a-82e0-e16f0aa29d74.bin",
+          "sha256": "aa98c415e5beb1c5ee2f7d2508a3bbba949be223d7d9e5e1788ad0ae8598dda5"
+        },
+        {
+          "filename": "lex.50.50.enro.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0b9db082-327d-4ab0-bad6-17e7631ec163.bin",
+          "sha256": "508bce64a8bc906a99043ad2f4855b4662e06f8827c1c6a75ab83181b4f17f81"
+        },
+        {
+          "filename": "vocab.enro.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/41f055b0-76a8-4dae-a18c-44d8c1293bf0.spm",
+          "sha256": "d89eedf6cbbcb30d7ed4b0b092189196ac2b010ec0c3ede33a6676b17ea1c95e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enro.intgemm.alphas.bin\nvocabs:\n  - vocab.enro.spm\n  - vocab.enro.spm\nshortlist:\n    - lex.50.50.enro.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ru",
+      "name": "English-Russian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Russian",
+      "targetCode": "ru",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enru.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0ed2208e-01d5-4251-9fcd-5ad2167ba456.bin",
+          "sha256": "01db60f75a54ef39c617cbdfdd78759a6a216576efa9a9088da8a6433d90af77"
+        },
+        {
+          "filename": "lex.50.50.enru.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0a9c0bc3-19a7-4b0a-9f9c-f8494a0e59f9.bin",
+          "sha256": "3587f93c10c1d457f874c2ba7ff4d5e2686fdaf7f3fd179cfefeacab3c6990b9"
+        },
+        {
+          "filename": "vocab.enru.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d410fe5f-3f5d-4af6-9841-ca55beab47f7.spm",
+          "sha256": "56ee63e14e8cb926c394242adc3ed7cc602644c3d33058cff2ce2959d52a6258"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enru.intgemm.alphas.bin\nvocabs:\n  - vocab.enru.spm\n  - vocab.enru.spm\nshortlist:\n    - lex.50.50.enru.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-sk",
+      "name": "English-Slovak",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Slovak",
+      "targetCode": "sk",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ensk.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/14d1bc01-c5fc-4479-a8a6-1c36199059d5.bin",
+          "sha256": "6806173ad92e25de54bd3eed91248cddeff622dd9e8133dc956d39204c296395"
+        },
+        {
+          "filename": "lex.50.50.ensk.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/4f01b825-b35a-4ec3-ac44-f7c4a6e2978a.bin",
+          "sha256": "5cae8b042d1a7eb19cfcebd3bb45fafd2faf2a963a7693775079afdbf0393c9c"
+        },
+        {
+          "filename": "vocab.ensk.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/16664cd5-a375-4570-abfe-a7e18e1a343a.spm",
+          "sha256": "cfa6a9e601d74686b117f041eb1ad9de94c34219110b67367d570a9e27026a46"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ensk.intgemm.alphas.bin\nvocabs:\n  - vocab.ensk.spm\n  - vocab.ensk.spm\nshortlist:\n    - lex.50.50.ensk.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-sl",
+      "name": "English-Slovenian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Slovenian",
+      "targetCode": "sl",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ensl.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/55a96ed6-dffa-4d8d-90d8-f77f41d76db6.bin",
+          "sha256": "d17b4e7ad9cdf53341b69b388f68919133bb40e009691c2648f635d15622a217"
+        },
+        {
+          "filename": "lex.50.50.ensl.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ce3ebb30-7688-44b0-a699-0a7089719e80.bin",
+          "sha256": "11b7b9fa6ac9e43f2d34faef239889334b4b57925ffd319fe7f709055338cf06"
+        },
+        {
+          "filename": "vocab.ensl.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/cab6f9bc-d874-41ad-be8b-259caf27e975.spm",
+          "sha256": "7cd295383c46824c05a05db76b543d3595f2516537dd22b77190a45c8919224d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ensl.intgemm.alphas.bin\nvocabs:\n  - vocab.ensl.spm\n  - vocab.ensl.spm\nshortlist:\n    - lex.50.50.ensl.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-sq",
+      "name": "English-Albanian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Albanian",
+      "targetCode": "sq",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ensq.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c0e6c2d8-c6c4-43d5-b3b7-3a4904e4dbaa.bin",
+          "sha256": "8a90d17ab2798509e639e544caa1d577f7cf87c31b9ab7e53890c8d1d59b6eee"
+        },
+        {
+          "filename": "lex.50.50.ensq.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bbf53ab4-6c58-4752-8ea1-3baea56e2123.bin",
+          "sha256": "c901d1f5910315e0791720fa6f1275d79565e59d85013cf66b2f98cd9ba58ce1"
+        },
+        {
+          "filename": "vocab.ensq.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a8077b3c-d0de-41d7-bdba-920649969bd6.spm",
+          "sha256": "f27814dffca6102255ed7a338f2a83c16905a07e09444016187c768aaf9ac7b6"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ensq.intgemm.alphas.bin\nvocabs:\n  - vocab.ensq.spm\n  - vocab.ensq.spm\nshortlist:\n    - lex.50.50.ensq.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-sr",
+      "name": "English-Serbian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Serbian",
+      "targetCode": "sr",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.ensr.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192734--a80412e9-fa33-4c4d-9bd8-b3a1f5896acc--78cdbec0-371c-4284-89de-8742beda6c85.bin",
+          "sha256": "d26e1c5a01f917c38ccda17d1bf116024ac4d988105e1bbf70bc5e8f9191c57a"
+        },
+        {
+          "filename": "lex.50.50.ensr.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192721--e24992f7-ee9c-4966-9a9e-01f432e76323--7568705b-d3b5-490c-b77f-bca96d59cf48.bin",
+          "sha256": "b2ae22b4d7bc4295d25b8a55559ebbdbd8f728bc8de5c3d6f110bd44ce7d8962"
+        },
+        {
+          "filename": "vocab.ensr.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192736--6dc4626d-ca16-4fb5-a935-28e13eee3f98--a66e2d92-458c-4afd-9e46-3a64050e0f24.spm",
+          "sha256": "7f54ba1554b7b1a89299a0ec5950535432f062b50a5f8c9bcd664a2444fa882a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ensr.intgemm.alphas.bin\nvocabs:\n  - vocab.ensr.spm\n  - vocab.ensr.spm\nshortlist:\n    - lex.50.50.ensr.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-sv",
+      "name": "English-Swedish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Swedish",
+      "targetCode": "sv",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ensv.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/15a011f5-97aa-4153-acdb-b3235bb27e77.bin",
+          "sha256": "65ea0db8e658435846f297384face62dbf1804cfc92de8388b0e368e6ecc25a7"
+        },
+        {
+          "filename": "lex.50.50.ensv.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8ef77dbe-f4c7-40ac-ba1c-7bc13492b853.bin",
+          "sha256": "5761c39887a0e0cd3dd38d22cadc31cecd2a43b0514c4bba96b426736e7fd72d"
+        },
+        {
+          "filename": "vocab.ensv.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/080a36dd-80d7-442e-a682-ffc7c581b979.spm",
+          "sha256": "ff7e366ff4228107e58d76ca348e7dea2eb325452363d68e0047e97fb483e40e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ensv.intgemm.alphas.bin\nvocabs:\n  - vocab.ensv.spm\n  - vocab.ensv.spm\nshortlist:\n    - lex.50.50.ensv.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ta",
+      "name": "English-Tamil",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Tamil",
+      "targetCode": "ta",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enta.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/89d6d4f0-53ee-4a28-8902-b4599fb4713b.bin",
+          "sha256": "8c7d9ba830c15e2ba89a70307f301a62b7b2a51ae1e9f9a3938843eaa875af3d"
+        },
+        {
+          "filename": "lex.50.50.enta.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/98f1c06f-afa9-48ca-849f-2cda25c5fe41.bin",
+          "sha256": "1c8a503dd72f1c59e0ee0a231bda8acfba510e38f767039c1daedf21d2e84fc4"
+        },
+        {
+          "filename": "vocab.enta.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ea9b0dfd-c425-4f75-af1e-f188abbb6b6b.spm",
+          "sha256": "52a02652818903c82d4f2dd680aa89ee8993eaad40c04d3496ef119cb75fb710"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enta.intgemm.alphas.bin\nvocabs:\n  - vocab.enta.spm\n  - vocab.enta.spm\nshortlist:\n    - lex.50.50.enta.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-te",
+      "name": "English-Telugu",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Telugu",
+      "targetCode": "te",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ente.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ed071e54-c2ea-4f38-bbcc-1d6908c50b78.bin",
+          "sha256": "a3fee2fcd39df975da28666c536adff60147dce59062fca6097bb42fb2a52500"
+        },
+        {
+          "filename": "lex.50.50.ente.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/765d3164-3fe7-4a90-add7-358e799097e4.bin",
+          "sha256": "ea44d146f6b4614586654d91d7b677ee617e2367be2eccd72e81aa0fa359b92c"
+        },
+        {
+          "filename": "vocab.ente.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2856b6b5-b3ef-4032-b2b3-f8923450de91.spm",
+          "sha256": "41d0828d103a07e0608c604102ba4418fcb06e82b3742c1abc6d3ec343673e93"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ente.intgemm.alphas.bin\nvocabs:\n  - vocab.ente.spm\n  - vocab.ente.spm\nshortlist:\n    - lex.50.50.ente.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-th",
+      "name": "English-Thai",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Thai",
+      "targetCode": "th",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enth.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192810--5cccab3e-c1fb-4de9-b2a1-607dc2280cb2--f3cb18dc-47f6-4ad8-bede-9319e0e6c88c.bin",
+          "sha256": "80e326097655fca75f841130da3338a849aa245374e1616448bcf37b9523a05a"
+        },
+        {
+          "filename": "lex.50.50.enth.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192813--1deee5a6-eaef-4499-9443-20093491c48e--6300f5fe-62db-4288-8c14-7f1cee1b6a97.bin",
+          "sha256": "6961ce07f38e6c113a70855706aa7cad4cc828f986d1751c33f14699f885a2e8"
+        },
+        {
+          "filename": "vocab.enth.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192803--a787bf34-c470-405e-a69c-83fa1f38afe4--bf006223-e68d-4785-b86a-040edbb6a6a4.spm",
+          "sha256": "5deff7093d558768f8c22406449202e27595f023cc383a2b66beed240ed46443"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enth.intgemm.alphas.bin\nvocabs:\n  - vocab.enth.spm\n  - vocab.enth.spm\nshortlist:\n    - lex.50.50.enth.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-tr",
+      "name": "English-Turkish",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Turkish",
+      "targetCode": "tr",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.entr.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f48948a5-06b1-465b-a0dc-ea1a1a52323d.bin",
+          "sha256": "ea3cd4ee09de190df265c78d84260e277a9a8a3ddff05eb55d72afe7fc0fdbf4"
+        },
+        {
+          "filename": "lex.50.50.entr.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ed96fb89-d560-415b-9391-e5dc8edd13fa.bin",
+          "sha256": "3aba0be842bd4c192659c781e6fdce8eb9b2b1fff29a40d22f75da369d59f46f"
+        },
+        {
+          "filename": "vocab.entr.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/462a6fc1-0f2d-4b61-ae3f-147bd9f9d588.spm",
+          "sha256": "a220363d60391f7ce3df8ec9785424dbc00c24d5786d1a4308cf8ca3ed3385c2"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.entr.intgemm.alphas.bin\nvocabs:\n  - vocab.entr.spm\n  - vocab.entr.spm\nshortlist:\n    - lex.50.50.entr.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-uk",
+      "name": "English-Ukrainian",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Ukrainian",
+      "targetCode": "uk",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.enuk.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5352b083-db81-4fc7-8066-cf4b3fe8678a.bin",
+          "sha256": "66d2bc90cf1079743afb8c71e95182007c884c8f8a511685c1d47edda4a3e8af"
+        },
+        {
+          "filename": "lex.50.50.enuk.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/697cb1b3-b441-442c-b4f1-b792587f0c1a.bin",
+          "sha256": "8f63978540e82a2cae89101cab9a35e7ea0abd3de1fe234b2f769ed378b894f9"
+        },
+        {
+          "filename": "vocab.enuk.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c5f06e9d-8215-44af-817c-fe2d94b402ae.spm",
+          "sha256": "330fe40da410c7a41fcbf6aa98a2e619600b235b278c186c0f04c8ad1c2fbb7d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enuk.intgemm.alphas.bin\nvocabs:\n  - vocab.enuk.spm\n  - vocab.enuk.spm\nshortlist:\n    - lex.50.50.enuk.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-ur",
+      "name": "English-Urdu",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Urdu",
+      "targetCode": "ur",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enur.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134606--396ed26c-84a7-470d-92d3-88c3bcd03788--887c2b23-bac9-49e1-8904-ddfd223aee5f.bin",
+          "sha256": "0c29a5776a42ccb68f7969f41e64c0cd7a16ff00a5bfed0ed2809039febc202e"
+        },
+        {
+          "filename": "lex.50.50.enur.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134610--2e99b5c4-0265-4e75-bc86-10611e9638e4--16ad2691-87c9-4f25-af54-10f6b9177a3c.bin",
+          "sha256": "64fb95c1f2c782cc76227b5d3a09e08cb30fea7b14a27aad69b929ad25f24401"
+        },
+        {
+          "filename": "vocab.enur.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134608--9800133e-bfe1-42b7-95ad-b1f0cc530aab--d059795e-dfed-4528-af77-637e840e9a67.spm",
+          "sha256": "24be4dacbcb080e4dba5cd025fbb90113de346dcb49930520f49fed484ac2d1f"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enur.intgemm.alphas.bin\nvocabs:\n  - vocab.enur.spm\n  - vocab.enur.spm\nshortlist:\n    - lex.50.50.enur.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-vi",
+      "name": "English-Vietnamese",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Vietnamese",
+      "targetCode": "vi",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.envi.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192834--e5c737d0-a39d-4bb8-8832-2bcc5ef45e5c--991fc4d6-87c3-476d-b879-ddeff0b6cae0.bin",
+          "sha256": "04fa6044593a404c2aa02b3096f203880852df6f8f41e5eb966ed9f2b4366737"
+        },
+        {
+          "filename": "lex.50.50.envi.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192836--32f34bd8-c481-4c26-aad9-eeddaac9cd79--cd40019d-37ce-4a14-8f11-ccddc804e7a2.bin",
+          "sha256": "18116817fcd3d24dcdfd97cb57e9e60472800dae3b8a007f6f36d61d645f699c"
+        },
+        {
+          "filename": "vocab.envi.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522192839--8cf85580-732e-484a-8b75-7417bbef3c69--a5f5c4c0-3c8f-452d-ba95-68948247d1a4.spm",
+          "sha256": "76daa9a49e393e50c865c889290e4dc36e9453e5e1ec9df7b9f3bc39ea782537"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.envi.intgemm.alphas.bin\nvocabs:\n  - vocab.envi.spm\n  - vocab.envi.spm\nshortlist:\n    - lex.50.50.envi.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-zh-Hans",
+      "name": "English-Chinese (Simplified)",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Chinese (Simplified)",
+      "targetCode": "zh-Hans",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enzh.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a7ff7d5e-e67e-406c-a34b-a7edea35b10e.bin",
+          "sha256": "4e5accc141373565ddc8fa1565bceaa8d0c3482a82cab8131c719ebcc6c2157c"
+        },
+        {
+          "filename": "lex.50.50.enzh.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/da8fccc0-31df-4665-9703-96d36606e019.bin",
+          "sha256": "4a5e5827788060f1d718a8132b69440929387514a045796e9b77f935db68c055"
+        },
+        {
+          "filename": "srcvocab.enzh.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ea98c52c-58dc-45d5-af23-38f2b029d020.spm",
+          "sha256": "bd9b65504acc6d9726dd281f7defc2adb7c2c22d0688fe2f84697de25197c8c5"
+        },
+        {
+          "filename": "trgvocab.enzh.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bddbda68-d4d2-4317-a0a1-119caa47525e.spm",
+          "sha256": "aded6993c36e440284d11cec3f6b8aef9c0e43188a772d80be342a713adf223d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enzh.intgemm.alphas.bin\nvocabs:\n  - srcvocab.enzh.spm\n  - trgvocab.enzh.spm\nshortlist:\n    - lex.50.50.enzh.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-en-zh-Hant",
+      "name": "English-Chinese (Traditional)",
+      "sourceName": "English",
+      "sourceCode": "en",
+      "targetName": "Chinese (Traditional)",
+      "targetCode": "zh-Hant",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.enzh.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194155--76d2a34e-7ef2-4829-ac1a-a1319b852dc5--72be7771-db83-4218-bec5-44f021cbf00b.bin",
+          "sha256": "559ab90d723a58c1f1e2ab7cc12137bc667af5ba3e325e3eb30b5cdc930db520"
+        },
+        {
+          "filename": "lex.50.50.enzh.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194159--13a8d548-8d6a-46f6-ab8d-ea19098b7fe8--6cf4bdcb-dbe5-4e2d-af40-a02b440fdcc9.bin",
+          "sha256": "d891404d1436a7334df12539fe30a26f9e9f2b80bd42fdb8b5f8849e8a1e942b"
+        },
+        {
+          "filename": "srcvocab.enzh.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194144--b93467f8-2c0b-43f4-a662-19cae5c7f899--ae44a945-6ed0-44d2-88ac-d4b9c25f6c3a.spm",
+          "sha256": "2266df70492162a249ab1c0154f929bd6098b246544c666c1a0d5a24dde7d2ea"
+        },
+        {
+          "filename": "trgvocab.enzh.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194157--52f509a0-ac8b-48bf-ba9f-0c61a064a00a--85418cc0-208e-440b-ac6f-c56d242ca430.spm",
+          "sha256": "22b91a4436d70b91ab8777c677252ab5fae2bc284d71f977df5206c110e3444c"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.enzh.intgemm.alphas.bin\nvocabs:\n  - srcvocab.enzh.spm\n  - trgvocab.enzh.spm\nshortlist:\n    - lex.50.50.enzh.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-es-en",
+      "name": "Spanish-English",
+      "sourceName": "Spanish",
+      "sourceCode": "es",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.esen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9ee26e91-9b52-44ba-8d30-c0230dd587b2.bin",
+          "sha256": "4b6b7f451094aaa447d012658af158ffc708fc8842dde2f871a58404f5457fe0"
+        },
+        {
+          "filename": "lex.50.50.esen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/54c5d8e2-3900-4a31-860e-8a18f7d028b5.bin",
+          "sha256": "f11a2c23ef85ab1fee1c412b908d69bc20d66fd59faa8f7da5a5f0347eddf969"
+        },
+        {
+          "filename": "vocab.esen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/cab5e093-7b55-47ea-a247-9747cc0109e3.spm",
+          "sha256": "909b1eea1face0d7f90a474fe29a8c0fef8d104b6e41e65616f864c964ba8845"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.esen.intgemm.alphas.bin\nvocabs:\n  - vocab.esen.spm\n  - vocab.esen.spm\nshortlist:\n    - lex.50.50.esen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-et-en",
+      "name": "Estonian-English",
+      "sourceName": "Estonian",
+      "sourceCode": "et",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.eten.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/68967300-3d28-434b-885b-3ff4dfe5a2e3.bin",
+          "sha256": "aac98a2371e216ee2d4843cbe896c617f6687501e17225ac83482eba52fd0028"
+        },
+        {
+          "filename": "lex.50.50.eten.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0bbaec62-644a-4c86-a1ad-eeab59e8ee33.bin",
+          "sha256": "6992bedc590e60e610a28129c80746fe5f33144a4520e2c5508d87db14ca54f8"
+        },
+        {
+          "filename": "vocab.eten.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a2c21e02-2bbf-4a67-9cd0-748263eb74b3.spm",
+          "sha256": "e3b66bc141f6123cd40746e2fb9b8ee4f89cbf324ab27d6bbf3782e52f15fa2d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.eten.intgemm.alphas.bin\nvocabs:\n  - vocab.eten.spm\n  - vocab.eten.spm\nshortlist:\n    - lex.50.50.eten.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-eu-en",
+      "name": "Basque-English",
+      "sourceName": "Basque",
+      "sourceCode": "eu",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.euen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603154027--5320f62e-c826-4644-8e01-bec64710822f--6b369bc2-bd90-40a0-a6e2-fc5e58d24a95.bin",
+          "sha256": "f0a31e26b381d6340b069da4d505e11d18ac91e42f0189d37ed5fe6aa3685ed4"
+        },
+        {
+          "filename": "lex.50.50.euen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603154011--3e7cb4af-1362-4b92-8a4d-876af8503aed--25a7b41f-ef0e-401c-a20b-e886c4945547.bin",
+          "sha256": "4be647536631440bdf68c59d3de5720d8e87a482e0493ff41767488b4df1731d"
+        },
+        {
+          "filename": "vocab.euen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603154029--7a4d5761-5490-4cff-bf14-83e99165c749--fdb7f0cb-a4de-4501-8c30-e4dda214c491.spm",
+          "sha256": "8f0cdff0c5bca8ed24d91c415f428d8b208f4991087723f38c1c28b59896de89"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.euen.intgemm.alphas.bin\nvocabs:\n  - vocab.euen.spm\n  - vocab.euen.spm\nshortlist:\n    - lex.50.50.euen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-fa-en",
+      "name": "Persian-English",
+      "sourceName": "Persian",
+      "sourceCode": "fa",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.faen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f4aff749-de66-43df-864e-0593eb932a5a.bin",
+          "sha256": "aa326306c177e11129de5bfeba518abc499c0b6005492766748a9c9ea6f4c712"
+        },
+        {
+          "filename": "lex.50.50.faen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/7b4ebd8f-771e-4324-86b4-17c6fb7d34fc.bin",
+          "sha256": "4828cb060bd4375f8aabb85fed39c18aca52b738838394546f2ddbf707a6f28e"
+        },
+        {
+          "filename": "vocab.faen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b6d1420e-9622-4f1f-8997-6731d8a9fd73.spm",
+          "sha256": "bf36943053883d6c0fc98c2985f676a0a37042e796bad0e3df0a813d9d5393f4"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.faen.intgemm.alphas.bin\nvocabs:\n  - vocab.faen.spm\n  - vocab.faen.spm\nshortlist:\n    - lex.50.50.faen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-fi-en",
+      "name": "Finnish-English",
+      "sourceName": "Finnish",
+      "sourceCode": "fi",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.fien.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e5f53859-6906-4300-b811-bc9772b84730.bin",
+          "sha256": "1bcc9d3b178ca8d6a99e4ed4263044308cc94381c27b46930252d92fd9445c67"
+        },
+        {
+          "filename": "lex.50.50.fien.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/25a42fc1-8141-4331-8684-f4fb4d000b31.bin",
+          "sha256": "07110471bcdf71ce248a471adc00b6fbb4ead00591a2fbfd24c0d00bcb552595"
+        },
+        {
+          "filename": "vocab.fien.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6e34d9a9-0f0a-4448-a9c1-c73cda71528d.spm",
+          "sha256": "30feb41f8297548bd94addd2e3dda57ad1153deaf88870f13764029d673518e0"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.fien.intgemm.alphas.bin\nvocabs:\n  - vocab.fien.spm\n  - vocab.fien.spm\nshortlist:\n    - lex.50.50.fien.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-fr-en",
+      "name": "French-English",
+      "sourceName": "French",
+      "sourceCode": "fr",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.fren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e8e44aae-f20c-48c7-89c8-dade397a5858.bin",
+          "sha256": "185f76d24c2d400fe4ea0cb2487df77722641b97a3ef10633872e8a7fdf40e09"
+        },
+        {
+          "filename": "lex.50.50.fren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/75287f2c-8f15-4045-a435-ec1b9394d973.bin",
+          "sha256": "3148abf21ea98a4d69d0e4504e0d68a6c060204a9b9a39b76855aee1d5b2c8ea"
+        },
+        {
+          "filename": "vocab.fren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3096e2ad-89fe-4f9b-aac7-57f011bd4c49.spm",
+          "sha256": "4c84b95b62c930f0791466d73eb996841eef474c96d0c2f0e6c6d80640f2005a"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.fren.intgemm.alphas.bin\nvocabs:\n  - vocab.fren.spm\n  - vocab.fren.spm\nshortlist:\n    - lex.50.50.fren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-gl-en",
+      "name": "Galician-English",
+      "sourceName": "Galician",
+      "sourceCode": "gl",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.glen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153931--1f4f1b9a-7e71-42d8-9c56-81a2054afeb4--213ed8eb-077b-4018-b08a-5c4f229d1680.bin",
+          "sha256": "7e8ea0279166c72b0b430327533c643a88f26e80e4a9f9f294244a84213f3e6d"
+        },
+        {
+          "filename": "lex.50.50.glen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153924--06b098f0-ee9c-433c-a08a-1be06e2e94bd--e55fbbc5-18f3-40a2-b7f8-27662b078569.bin",
+          "sha256": "fea6d0e1ea5d5e8e5f7207e4572867fb8f8d8b3f5f983a33067a06b218ab287f"
+        },
+        {
+          "filename": "vocab.glen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260603153925--0306045a-4e4d-4349-a54b-21746bb9a1a6--beac37c5-ee0d-46e8-96e6-8097aef83613.spm",
+          "sha256": "5157bf2e08eeac7b98703bf50a14653eab84607bb707a00db81585f61c814a6c"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.glen.intgemm.alphas.bin\nvocabs:\n  - vocab.glen.spm\n  - vocab.glen.spm\nshortlist:\n    - lex.50.50.glen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-gu-en",
+      "name": "Gujarati-English",
+      "sourceName": "Gujarati",
+      "sourceCode": "gu",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.guen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f91e70e6-4a8e-463d-94da-bcccb60e473b.bin",
+          "sha256": "7b16e4e64f2776c73d87db01922c091738566b6a6092a42488cbaee1385cb4ab"
+        },
+        {
+          "filename": "lex.50.50.guen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/cf25205a-8cdb-4a34-9fab-22f4242a9429.bin",
+          "sha256": "af01dbec5a1555ddad7c4b19878ecda00e6f9d179ca76a40ab2413de6b081cb0"
+        },
+        {
+          "filename": "vocab.guen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/94d4e6e4-acf0-49c7-ac5c-d7fc122f0e62.spm",
+          "sha256": "6ad2aa442cc04398bd06b4f03a1027939bbfbaac5f87b3d21f667406f4f62704"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.guen.intgemm.alphas.bin\nvocabs:\n  - vocab.guen.spm\n  - vocab.guen.spm\nshortlist:\n    - lex.50.50.guen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-he-en",
+      "name": "Hebrew-English",
+      "sourceName": "Hebrew",
+      "sourceCode": "he",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.heen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/eb972efb-b367-4196-b695-ff7dc92272a6.bin",
+          "sha256": "7291cab3ec483b8cf524da96201fe947dca8c550132be21a06badeb946b5c079"
+        },
+        {
+          "filename": "lex.50.50.heen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f565a912-e45d-476c-a94d-c69ec0224b25.bin",
+          "sha256": "427c88732cb93b28d2a947cace79f62aabceb7d6f4438516e85994b14a73b68e"
+        },
+        {
+          "filename": "vocab.heen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b8975592-4c98-4b56-8111-83125b8200d1.spm",
+          "sha256": "45f5d413b9208c5f24340ab0e20a63604a572784d289baa2d788deea946f79a2"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.heen.intgemm.alphas.bin\nvocabs:\n  - vocab.heen.spm\n  - vocab.heen.spm\nshortlist:\n    - lex.50.50.heen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-hi-en",
+      "name": "Hindi-English",
+      "sourceName": "Hindi",
+      "sourceCode": "hi",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.hien.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/fe8b6e35-403a-493d-996a-4842e86cf9b7.bin",
+          "sha256": "c82fd6ed3794b79fb9dde0718a22324502a408a9eca73497b5d0a4b8024ec6de"
+        },
+        {
+          "filename": "lex.50.50.hien.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d5c8cc93-ccd8-4fc5-9739-1085b6ab25cd.bin",
+          "sha256": "e789be33dfdb639e98f5cf9eb01aa945ec3c882f68f3c8860389cf846f0112d8"
+        },
+        {
+          "filename": "vocab.hien.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ab2371ea-810c-4dcb-bedf-35fb9e07696a.spm",
+          "sha256": "9cbc02094ac2ebd75211b3bb6789a9d6fa112ce3c08e897f1645f18b21fbab00"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.hien.intgemm.alphas.bin\nvocabs:\n  - vocab.hien.spm\n  - vocab.hien.spm\nshortlist:\n    - lex.50.50.hien.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-hr-en",
+      "name": "Croatian-English",
+      "sourceName": "Croatian",
+      "sourceCode": "hr",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.hren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5fac58c4-3e2f-4bd5-83ed-a79854690eb3.bin",
+          "sha256": "fa6c8220d3f1c41eb75b720859971dbe3acb6bf63691656c58faa4cdc28d918d"
+        },
+        {
+          "filename": "lex.50.50.hren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ac72b3bf-3886-4951-bc25-50814d071313.bin",
+          "sha256": "c9ef83603e41f78d41fa601ba9c7196be58518bd964bfe364f325665bc8bc7d0"
+        },
+        {
+          "filename": "vocab.hren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/28050743-d5bd-4407-99f5-8bee12db36fc.spm",
+          "sha256": "4e9cc10e8ff4a4ed64fc90b45835385690e55f49b40e8efe471597d2e3a9cd24"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.hren.intgemm.alphas.bin\nvocabs:\n  - vocab.hren.spm\n  - vocab.hren.spm\nshortlist:\n    - lex.50.50.hren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-hu-en",
+      "name": "Hungarian-English",
+      "sourceName": "Hungarian",
+      "sourceCode": "hu",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.huen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/38508025-9089-4c59-bedd-26f2ac0fbc13.bin",
+          "sha256": "518356dbb0c071739318601963a87580fb41732652f52bd3635246330c186d9e"
+        },
+        {
+          "filename": "lex.50.50.huen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c6506124-8f60-44c6-b53d-c4840f1c0695.bin",
+          "sha256": "fff56b2501258ec4c46a8fc715caee7aeb15d853f859cdfacd3ef9903ed2fff1"
+        },
+        {
+          "filename": "vocab.huen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/42b6df14-fdf1-4b3f-afc1-c961941a6695.spm",
+          "sha256": "0db772702235b02d1f29abafb7a49ed77e54c60245b3a46e90716e74263aedd6"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.huen.intgemm.alphas.bin\nvocabs:\n  - vocab.huen.spm\n  - vocab.huen.spm\nshortlist:\n    - lex.50.50.huen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-id-en",
+      "name": "Indonesian-English",
+      "sourceName": "Indonesian",
+      "sourceCode": "id",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.iden.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/411195b7-3320-4390-87b8-47efed847e45.bin",
+          "sha256": "eeed3d8c2c78ec7011b31b2419e1d2dfdf2a7cc0ee0dbb1fcd164c934cb5d328"
+        },
+        {
+          "filename": "lex.50.50.iden.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b1ef3f20-d635-454f-8936-9d9d9dc52a95.bin",
+          "sha256": "7a543087d4e9c1fe2f6b6f735b5e31aeadab80235e734c0388278722042ee3a2"
+        },
+        {
+          "filename": "vocab.iden.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/a166d34f-91f1-46aa-bd74-3f0698cade5d.spm",
+          "sha256": "a2dd1462abd17cccbbf3fefc562131f06b293f8ff6a5efad73ebb0176810d835"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.iden.intgemm.alphas.bin\nvocabs:\n  - vocab.iden.spm\n  - vocab.iden.spm\nshortlist:\n    - lex.50.50.iden.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-is-en",
+      "name": "Icelandic-English",
+      "sourceName": "Icelandic",
+      "sourceCode": "is",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.isen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3c65f862-4d77-435c-b6a5-182612df367e.bin",
+          "sha256": "29ff1cc6072372ee41f91d38dbf1cdfa4efb1a89a0c0c4200a443ee929e091b7"
+        },
+        {
+          "filename": "lex.50.50.isen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f9c93aa6-a438-4469-947b-efbb896f3420.bin",
+          "sha256": "790a9dd90e07b105437df60d79cb30fcb34fdce918b4aa5e94992953bcc42520"
+        },
+        {
+          "filename": "vocab.isen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b6f7507f-c2e9-4954-bd4e-f9739a8d777b.spm",
+          "sha256": "67020a6ce013f06a1fca8b1f4c1a65c4fb8c679b231a236e7c6988570cbc8e06"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.isen.intgemm.alphas.bin\nvocabs:\n  - vocab.isen.spm\n  - vocab.isen.spm\nshortlist:\n    - lex.50.50.isen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-it-en",
+      "name": "Italian-English",
+      "sourceName": "Italian",
+      "sourceCode": "it",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.iten.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/1cf6a2f6-f430-4119-98d5-1ec0617beb0f.bin",
+          "sha256": "7dfdf189146d9353fdea264b9e4c8ac36441c770dc4353a8380b64e589dc035b"
+        },
+        {
+          "filename": "lex.50.50.iten.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b38e032b-1b1a-4899-a0e5-80ef69a06814.bin",
+          "sha256": "e30ec549bd0da9ac42cccdcd3806d3be84d485f7fd329f90f6e40ee027e841d9"
+        },
+        {
+          "filename": "vocab.iten.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/fbc18b06-35c1-47fa-b2db-5b792366471b.spm",
+          "sha256": "603f3349657c3deb9736a0c567452d102a5a03c377dfdf1d32c428608f2cff1b"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.iten.intgemm.alphas.bin\nvocabs:\n  - vocab.iten.spm\n  - vocab.iten.spm\nshortlist:\n    - lex.50.50.iten.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ja-en",
+      "name": "Japanese-English",
+      "sourceName": "Japanese",
+      "sourceCode": "ja",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.jaen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2b066368-11b5-4cee-92e8-e6156b334f80.bin",
+          "sha256": "3a603e20bfe1be86071913f9e23ab5129075bc0a8490151020ac4821e4f17302"
+        },
+        {
+          "filename": "lex.50.50.jaen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/4e6b3270-8a2f-491d-b717-f99749328622.bin",
+          "sha256": "525f412f0d210536c2933c78ae395fa0bf2b5ee6cc5dda61ebc2e79410ebaee4"
+        },
+        {
+          "filename": "vocab.jaen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6f4898e3-ebaa-4a79-a1af-93a4f65b96fa.spm",
+          "sha256": "5cb217758bae05877bb3f0c2f612e4e7c1e4cb03c10db11f4a47098d7ae62919"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.jaen.intgemm.alphas.bin\nvocabs:\n  - vocab.jaen.spm\n  - vocab.jaen.spm\nshortlist:\n    - lex.50.50.jaen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-kn-en",
+      "name": "Kannada-English",
+      "sourceName": "Kannada",
+      "sourceCode": "kn",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.knen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/28129f02-9fcd-48a0-9b19-ec1a6184e6b0.bin",
+          "sha256": "49e8d3bd794b098047f7b177d9d0e6d3e49ac798c2b75bc132149cb46c5bfbfd"
+        },
+        {
+          "filename": "lex.50.50.knen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8aef2927-82d5-4534-8edf-ba4f9906d692.bin",
+          "sha256": "aa50a74f15e9ef8cf27a5b905c17037bd9d67883afde71b34c4138f9507fedfc"
+        },
+        {
+          "filename": "vocab.knen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0340bd4a-7eae-462a-8593-9f4d7c1321e1.spm",
+          "sha256": "d729397a42dba5801f330927a9956527161d6e0711b59fcea7cd2e862e6f36cc"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.knen.intgemm.alphas.bin\nvocabs:\n  - vocab.knen.spm\n  - vocab.knen.spm\nshortlist:\n    - lex.50.50.knen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ko-en",
+      "name": "Korean-English",
+      "sourceName": "Korean",
+      "sourceCode": "ko",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.koen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/bf6d1f85-351f-4934-934d-8a7b0d118270.bin",
+          "sha256": "7cb30cbc0a86e242084756445268a2346136771c92b884d9b4ebb077f67d5507"
+        },
+        {
+          "filename": "lex.50.50.koen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/66a51334-41dd-4f08-bd22-6016035d6904.bin",
+          "sha256": "b26291f063ce216a74239275f0485534a38111203e59d42a2a56ba62d6eeb196"
+        },
+        {
+          "filename": "vocab.koen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/409950da-3a7f-4a0a-bd3e-9f655d7150eb.spm",
+          "sha256": "1c72b740ab793cdc3a8f16913dd6b4e806c77421077dd2d85edeb7be38418598"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.koen.intgemm.alphas.bin\nvocabs:\n  - vocab.koen.spm\n  - vocab.koen.spm\nshortlist:\n    - lex.50.50.koen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-lt-en",
+      "name": "Lithuanian-English",
+      "sourceName": "Lithuanian",
+      "sourceCode": "lt",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.lten.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6f262eca-064a-4e8e-bf19-e781ebed1edf.bin",
+          "sha256": "0aa4571ede6f68db2f14d2662875b4d2e6323aeccd75e3b4377ab9072a22db70"
+        },
+        {
+          "filename": "lex.50.50.lten.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0904ba86-3d64-4fc3-bc0b-89bc13fdcb03.bin",
+          "sha256": "f687821f4074063031b7857bd61232b4ef520f3cbac5a80d59993b27bf10a032"
+        },
+        {
+          "filename": "vocab.lten.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e2896132-a89e-4668-a9a8-1242a04c7a32.spm",
+          "sha256": "df3c6b7e9aa74ab4cce9f4ec73a44aac80be05fcd41ae55198a92c07c5ee3109"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.lten.intgemm.alphas.bin\nvocabs:\n  - vocab.lten.spm\n  - vocab.lten.spm\nshortlist:\n    - lex.50.50.lten.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-lv-en",
+      "name": "Latvian-English",
+      "sourceName": "Latvian",
+      "sourceCode": "lv",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.lven.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/31ed537d-a1af-41c6-86c1-559a6ca39c3d.bin",
+          "sha256": "7a96dd363ae9b4485aa254ddbff042223a565a20bfe5ba0ba29b94d8ded0406a"
+        },
+        {
+          "filename": "lex.50.50.lven.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b6c1f16d-1118-4e74-93c5-74dba239fdbe.bin",
+          "sha256": "dff852d317f80169899e2e1132277cf922fa7a117b060e09a14dd19c0e1a02b8"
+        },
+        {
+          "filename": "vocab.lven.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/25768d10-79e1-438c-86c9-255a69f42d73.spm",
+          "sha256": "585a265757c071f5694d1bb7e65b73f38b1d065a62cda61510fa6c54fb87d2c9"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.lven.intgemm.alphas.bin\nvocabs:\n  - vocab.lven.spm\n  - vocab.lven.spm\nshortlist:\n    - lex.50.50.lven.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ml-en",
+      "name": "Malayalam-English",
+      "sourceName": "Malayalam",
+      "sourceCode": "ml",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.mlen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/be6246b9-49cf-46a1-92d2-83c7d773c90d.bin",
+          "sha256": "5480719a5a8ac43acdf28db1c89a4d60837a475e1120ea0c4e021c4d5b7e6fd6"
+        },
+        {
+          "filename": "lex.50.50.mlen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/53ebac17-738e-4ba6-afd5-064970cd66df.bin",
+          "sha256": "afb882ad10c9540c12fa105e1e5418a54ec8117f11c4f17d998adf1d445e308c"
+        },
+        {
+          "filename": "vocab.mlen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2e851d3f-883f-4d3c-9e7b-227eddea2d83.spm",
+          "sha256": "c6b2150c85a18cae437d4e7245ef29d4b3629b2c611fce812d115a59c3b80efe"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.mlen.intgemm.alphas.bin\nvocabs:\n  - vocab.mlen.spm\n  - vocab.mlen.spm\nshortlist:\n    - lex.50.50.mlen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-mr-en",
+      "name": "Marathi-English",
+      "sourceName": "Marathi",
+      "sourceCode": "mr",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.mren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134649--ac45fdc7-c614-4e85-a69a-decb526089e8--7fb67214-6c8b-4429-a8ab-17f7323e09b7.bin",
+          "sha256": "7e4ce4102d159b1d0154193859ee36e26232ad6b1bc656fd9de23ebf530d67b0"
+        },
+        {
+          "filename": "lex.50.50.mren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134652--14e7c8bd-9cf2-4768-93bf-834c3fdc3126--5b789f01-3b95-48df-b621-a531cffd4b4c.bin",
+          "sha256": "27e8cb59d07bc1043a4b61ad7e15c2ce7b4c6aedc54cfe02514b4ad606f7c649"
+        },
+        {
+          "filename": "vocab.mren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260824134642--55581873-6baf-4f00-87f8-e87c904e94f9--2477e0db-df20-4ab6-91aa-4df06bc084c1.spm",
+          "sha256": "1dbe32811a6f1324bfdd9a0e0fd919730044ee79b59f24b3f36f3e07c69a06ed"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.mren.intgemm.alphas.bin\nvocabs:\n  - vocab.mren.spm\n  - vocab.mren.spm\nshortlist:\n    - lex.50.50.mren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ms-en",
+      "name": "Malay-English",
+      "sourceName": "Malay",
+      "sourceCode": "ms",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.msen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d15b2c97-ea4c-4ee0-b8de-19550aa55401.bin",
+          "sha256": "db5c9415591f8a35c5c72046227b9c9398acade5df8afb5e6ac9f11f7d6650d5"
+        },
+        {
+          "filename": "lex.50.50.msen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f314012f-a5f4-4b7c-88db-1c037318dfd8.bin",
+          "sha256": "1ef575be54a310eeace84c52e609f2a8c292f3c4b170376ee6ee3524c0c30316"
+        },
+        {
+          "filename": "vocab.msen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e8f368ab-7594-4357-a0b9-b22e92431d69.spm",
+          "sha256": "6db8c20803d5f9c9fff2b6c3950f5bda4a9fa14aaef1d92818f8a3d53fd850f9"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.msen.intgemm.alphas.bin\nvocabs:\n  - vocab.msen.spm\n  - vocab.msen.spm\nshortlist:\n    - lex.50.50.msen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-mt-en",
+      "name": "Maltese-English",
+      "sourceName": "Maltese",
+      "sourceCode": "mt",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.mten.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2a8e2c88-2529-4cca-9be0-b9874044ffcb.bin",
+          "sha256": "7d86de7e2136b5ecf0b61f5cbd01418a1fdbb52f08b8eb9d7dfe2379bbdf2486"
+        },
+        {
+          "filename": "lex.50.50.mten.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/09a47347-11d0-4ed6-b743-28f235e03d11.bin",
+          "sha256": "27fba2f530dc4e459e2acdcb0f575f20660bb18f20126a02327061dc5cd34ccd"
+        },
+        {
+          "filename": "vocab.mten.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/1093d6d2-b50b-4eb2-8775-d7a9435e44f8.spm",
+          "sha256": "01937c1cc6ea5c9d6ad93a42d3888a54bf12a7193411fed25327b698fdd4650d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.mten.intgemm.alphas.bin\nvocabs:\n  - vocab.mten.spm\n  - vocab.mten.spm\nshortlist:\n    - lex.50.50.mten.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-nb-en",
+      "name": "Norwegian (Bokmål)-English",
+      "sourceName": "Norwegian (Bokmål)",
+      "sourceCode": "nb",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.nben.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193045--9feb1537-4a06-4fe2-b680-186a24793b29--0963f0ba-1574-4da9-aac8-ae8ae8a3ff3b.bin",
+          "sha256": "00ab7b969156f6c948be59dad4755e47a24eeb31aa39f02f1de7bce43081cc2a"
+        },
+        {
+          "filename": "lex.50.50.nben.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193036--b74a4188-2902-4975-a9ca-1727443e2fc1--9fe22488-5d86-4cea-a14f-9d461a2b2ce7.bin",
+          "sha256": "cc07976874c905e859918be71d3fe993c9ec8696d986db2418bb1a16ff4ea500"
+        },
+        {
+          "filename": "vocab.nben.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193032--70cbb53a-bdad-427b-835f-86aa7bae1ff9--783b30c6-7de5-4b7c-b434-896416277f4e.spm",
+          "sha256": "23eb1743070efac5a447f4f72aafda69b1985af272cece85a2f0bb08e6fcdeef"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.nben.intgemm.alphas.bin\nvocabs:\n  - vocab.nben.spm\n  - vocab.nben.spm\nshortlist:\n    - lex.50.50.nben.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-nl-en",
+      "name": "Dutch-English",
+      "sourceName": "Dutch",
+      "sourceCode": "nl",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.nlen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/1db60932-8656-41a8-a00f-191eb925cef8.bin",
+          "sha256": "187f9c8f1ffbcc8ecf0724b608ffed9f15bde262b9de5c4754f8d763b585969d"
+        },
+        {
+          "filename": "lex.50.50.nlen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/eeba1c98-e44a-4d97-8b5c-44c0a56edc3c.bin",
+          "sha256": "15c473e6e5aef1fa3fe5cc804844e19a2c671d2e39169dcbc06f456ca4f9b2c0"
+        },
+        {
+          "filename": "vocab.nlen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e16e52fe-1c21-48ab-9b7f-af1183a99d1a.spm",
+          "sha256": "48a6331cb8a69d21dd24c6c2a15de44a07bcfd4a4470eaf4616849d77945f6b9"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.nlen.intgemm.alphas.bin\nvocabs:\n  - vocab.nlen.spm\n  - vocab.nlen.spm\nshortlist:\n    - lex.50.50.nlen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-nn-en",
+      "name": "Norwegian (Nynorsk)-English",
+      "sourceName": "Norwegian (Nynorsk)",
+      "sourceCode": "nn",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.nnen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/8194e5c8-7083-44ea-8e9f-fa0984164bf9.bin",
+          "sha256": "17550943381bdfae30b1d8ee29b33b2da2c9ae4d4b9749e2e66b2946e27dce7d"
+        },
+        {
+          "filename": "lex.50.50.nnen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9bdab1d0-2dbf-471d-9a28-38ba1fd8fc57.bin",
+          "sha256": "b19abe7154430c1ee321e29391b14b2752c3350c3fbfcd1caf1ef7a0f9a30a97"
+        },
+        {
+          "filename": "vocab.nnen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0cf58a28-e182-4592-abad-d25c096c551e.spm",
+          "sha256": "14625622062046b7c44eb79652efb113518bf4b52fa1b98a949934b7a94b0273"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.nnen.intgemm.alphas.bin\nvocabs:\n  - vocab.nnen.spm\n  - vocab.nnen.spm\nshortlist:\n    - lex.50.50.nnen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-pl-en",
+      "name": "Polish-English",
+      "sourceName": "Polish",
+      "sourceCode": "pl",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.plen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b26a428b-a136-469d-91dd-9389f72c053e.bin",
+          "sha256": "172a5f1d44bf8dd6a6eec3868b13b33ce265f3530e898fe11a80b739b821726e"
+        },
+        {
+          "filename": "lex.50.50.plen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ce258bcd-2f27-42c4-8f46-4ccaac1158ae.bin",
+          "sha256": "863afade0ba058fb0173fedef3d1fb14d0dcabc24c3b4584cb1fed8f84d6d879"
+        },
+        {
+          "filename": "vocab.plen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/98b6b745-b695-4543-95d8-adf1996095ce.spm",
+          "sha256": "a1d27e6f5c0d29f406364ebf0382949d1c0affc750cec4380f3173150552f43e"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.plen.intgemm.alphas.bin\nvocabs:\n  - vocab.plen.spm\n  - vocab.plen.spm\nshortlist:\n    - lex.50.50.plen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-pt-en",
+      "name": "Portuguese-English",
+      "sourceName": "Portuguese",
+      "sourceCode": "pt",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.pten.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/dc4327ec-9ebc-4c12-8037-48cd30f3076d.bin",
+          "sha256": "b4a1fd101f59ca258bfb051a3a4e5762497b9f91d7e74f28b7a2d68dc075f8fa"
+        },
+        {
+          "filename": "lex.50.50.pten.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/013e0ebf-3d6b-4723-b83e-0e00ed29477f.bin",
+          "sha256": "702d9b09fbc020168998bb81afc927e74262f5a1455e9b443608a5d8efa4b52d"
+        },
+        {
+          "filename": "vocab.pten.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/75fa56af-540e-4a56-8a9f-1317ae7a9c61.spm",
+          "sha256": "2326a27577b5ffa0b822c55fe850986961728097521de35fcc186f7d6dce72d4"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.pten.intgemm.alphas.bin\nvocabs:\n  - vocab.pten.spm\n  - vocab.pten.spm\nshortlist:\n    - lex.50.50.pten.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ro-en",
+      "name": "Romanian-English",
+      "sourceName": "Romanian",
+      "sourceCode": "ro",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.roen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5e717d94-7c4e-4fd6-af34-63e3c29682af.bin",
+          "sha256": "e7542557fc6dbafacddae7b48e67fcdb07bd67b3fb55a76139edf366eca5dbdb"
+        },
+        {
+          "filename": "lex.50.50.roen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6661bfc3-fd0e-47ae-ab65-4c19adaa5ab0.bin",
+          "sha256": "d242745eadff6f345784fccf1d58046061501b28c8190ba5912a9da5f056cd2f"
+        },
+        {
+          "filename": "vocab.roen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/6cfea415-f0ff-47d7-ac93-5450bc92f0aa.spm",
+          "sha256": "2a690fbcd1b79bc9b99c43d582252720e0900245c82ecc813c8eb05cf063fd0c"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.roen.intgemm.alphas.bin\nvocabs:\n  - vocab.roen.spm\n  - vocab.roen.spm\nshortlist:\n    - lex.50.50.roen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ru-en",
+      "name": "Russian-English",
+      "sourceName": "Russian",
+      "sourceCode": "ru",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.ruen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/466ccac8-f8c7-4fee-81ee-477a1f817f1c.bin",
+          "sha256": "b1d85c13cfbb05e1d326dd6f0fb5ef270a2011b547450260f96567a93f446c94"
+        },
+        {
+          "filename": "lex.50.50.ruen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/fe5156a8-ab98-4597-84c5-f1248eda4770.bin",
+          "sha256": "f654693577505fd38b1f3d220cdd4ffffbb45afb900a60cf751f0724eadc74e0"
+        },
+        {
+          "filename": "vocab.ruen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/40916383-0537-4869-992a-6606ee0cfb97.spm",
+          "sha256": "93bdc941b16e523695c319f74778bca9fd8b75a25ad75020cdc98aef74cdc0fc"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.ruen.intgemm.alphas.bin\nvocabs:\n  - vocab.ruen.spm\n  - vocab.ruen.spm\nshortlist:\n    - lex.50.50.ruen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-sk-en",
+      "name": "Slovak-English",
+      "sourceName": "Slovak",
+      "sourceCode": "sk",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.sken.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/280f0757-15d3-48a4-a67f-4af2d3f6c963.bin",
+          "sha256": "1686f94838ace314719e945606a09a66dafd40847dd3fd352ad3f7a969aac62f"
+        },
+        {
+          "filename": "lex.50.50.sken.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0bd69a2c-39d7-488a-b9e0-38a37a6f9d75.bin",
+          "sha256": "18577a7ded6b9957c948f2a384683f7ce09def42336c8141eee7ba86b79e2c8e"
+        },
+        {
+          "filename": "vocab.sken.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/9082a61c-aaf0-4c44-a8df-1388c5d2de5d.spm",
+          "sha256": "7d25655bd15f34d77db5d2cb96a51c7943c5528f37f83b677a09bb0ea4e4f59b"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.sken.intgemm.alphas.bin\nvocabs:\n  - vocab.sken.spm\n  - vocab.sken.spm\nshortlist:\n    - lex.50.50.sken.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-sl-en",
+      "name": "Slovenian-English",
+      "sourceName": "Slovenian",
+      "sourceCode": "sl",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.slen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ff130150-9068-4182-bc33-375d99a5b324.bin",
+          "sha256": "70b17f5367dbb25903cba54da5250f34fc9dcb5b137f7f24d57a943bcc55c3a2"
+        },
+        {
+          "filename": "lex.50.50.slen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/7e1d2b64-5cbe-42ad-8bd4-5938899e48f4.bin",
+          "sha256": "7df48c47f08c851a72756628860104cc04e9c0e415a15d74cd6974605beb866a"
+        },
+        {
+          "filename": "vocab.slen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/aadd6a6e-17d7-434e-ad4f-10ce8525bbf1.spm",
+          "sha256": "54ed331d3435e2bdc5b02462180197b77631f466fc0e61897b5469449857dd2b"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.slen.intgemm.alphas.bin\nvocabs:\n  - vocab.slen.spm\n  - vocab.slen.spm\nshortlist:\n    - lex.50.50.slen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-sq-en",
+      "name": "Albanian-English",
+      "sourceName": "Albanian",
+      "sourceCode": "sq",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.sqen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/73b13241-a205-42fa-8c9d-5b362bf6bc43.bin",
+          "sha256": "4b0ce319e7c8f7e1836ce18cb6522c83268e8cff54f2a7f5dcef270250a44475"
+        },
+        {
+          "filename": "lex.50.50.sqen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/5b825230-e17e-4749-baf6-b9bbdc0e95c8.bin",
+          "sha256": "b2f51df0bc14b9f89a29d39652a80167ef413eb1579957ecea825cb0a7575c60"
+        },
+        {
+          "filename": "vocab.sqen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2504afd7-d9b1-4a11-85be-2162c0bee6ea.spm",
+          "sha256": "6b7ce057b54ed983eb47087254ea8673e20a857739fc5b57874c80c3301bb91d"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.sqen.intgemm.alphas.bin\nvocabs:\n  - vocab.sqen.spm\n  - vocab.sqen.spm\nshortlist:\n    - lex.50.50.sqen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-sr-en",
+      "name": "Serbian-English",
+      "sourceName": "Serbian",
+      "sourceCode": "sr",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.sren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/d3adb13f-87a8-4abc-81ab-af4f77f0f478.bin",
+          "sha256": "99c44e9690a7ed2c1f13468765c3b1db2b8a8ae739980e4056d45dca613a1966"
+        },
+        {
+          "filename": "lex.50.50.sren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/89668816-671a-41d6-ac59-81b54e34b63f.bin",
+          "sha256": "476d9731a1fd44811466abf2292523f11eaad57f0fb7a5cd30391e7720c7071a"
+        },
+        {
+          "filename": "vocab.sren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/2e72e9fa-89d3-4961-a491-372c8da0e02a.spm",
+          "sha256": "5cdbad076c8f5b11e3342f5011e9f56f22558523ca82aec9bab621ddc7614bdc"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.sren.intgemm.alphas.bin\nvocabs:\n  - vocab.sren.spm\n  - vocab.sren.spm\nshortlist:\n    - lex.50.50.sren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-sv-en",
+      "name": "Swedish-English",
+      "sourceName": "Swedish",
+      "sourceCode": "sv",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.sven.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c9320d7a-0b85-444f-8b8e-4b83ddf86cbb.bin",
+          "sha256": "92d79e2725718b84aed486473bdfcbe6bba3e7094922d4bead8a121cfa346372"
+        },
+        {
+          "filename": "lex.50.50.sven.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/346b91bf-2540-43fa-a7d2-684e02f19252.bin",
+          "sha256": "1c4640765e806d905cdc4f51158f6f869c78709b9e8a43070877965fa13c160e"
+        },
+        {
+          "filename": "vocab.sven.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/60d6442e-ef60-4074-b1b3-330b916d619b.spm",
+          "sha256": "93427195fac4125722ed778707478ef78cb77b3fdf1ed5b93bee9fd36e30a8ec"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.sven.intgemm.alphas.bin\nvocabs:\n  - vocab.sven.spm\n  - vocab.sven.spm\nshortlist:\n    - lex.50.50.sven.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ta-en",
+      "name": "Tamil-English",
+      "sourceName": "Tamil",
+      "sourceCode": "ta",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.taen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b5c88da9-fc56-4b68-b984-d8ae63e299ad.bin",
+          "sha256": "5aece5d94824cc42d2f0f95482df61ff279a7d7bc4119543a8523ea5829aa947"
+        },
+        {
+          "filename": "lex.50.50.taen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/367641c9-9a3a-4795-a5e2-04c7f60571da.bin",
+          "sha256": "d2e5f66feb06d0cd20542f66f54c66d30230805b64ef08ebf6b8e5566461220a"
+        },
+        {
+          "filename": "vocab.taen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0d3ba3b1-be60-4f0c-8476-09163d3f689a.spm",
+          "sha256": "913e75e4fce0d34181fd7629cee95f3358fc4417896d023f8fec39380a69f352"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.taen.intgemm.alphas.bin\nvocabs:\n  - vocab.taen.spm\n  - vocab.taen.spm\nshortlist:\n    - lex.50.50.taen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-te-en",
+      "name": "Telugu-English",
+      "sourceName": "Telugu",
+      "sourceCode": "te",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.teen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20200b20-2ee3-4fc4-ae89-52e045ebdad0.bin",
+          "sha256": "e2ec7b13ba6148eba309244ee17dc935f1b71e95bbf57154216f6247877abb7e"
+        },
+        {
+          "filename": "lex.50.50.teen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/c704f4f5-2b2d-4874-8022-8046f8962f99.bin",
+          "sha256": "5df84ca17e4cc76a73ef7d93f94f53a89f37a11a456f2b6373ff19c4ce4ef964"
+        },
+        {
+          "filename": "vocab.teen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/f06f79ff-a591-47ef-aa99-4ce0dbacc222.spm",
+          "sha256": "dd57e1d68316ae32f9ba3f77223f317ce39cd1ef72e69e6b06b7c1d1ba954052"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.teen.intgemm.alphas.bin\nvocabs:\n  - vocab.teen.spm\n  - vocab.teen.spm\nshortlist:\n    - lex.50.50.teen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-th-en",
+      "name": "Thai-English",
+      "sourceName": "Thai",
+      "sourceCode": "th",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.then.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193109--d9494dd9-d382-4b84-b600-1445bbb07847--7bfb305f-f514-4d81-b390-f8bc76b5b461.bin",
+          "sha256": "f70a501324743668b031bee19cd001a66839e8e5dfc0b4a1c44d5ea99d4e8d66"
+        },
+        {
+          "filename": "lex.50.50.then.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193112--cc62d282-fc42-4465-b72e-911466f813f2--3bb43596-e613-4553-afc1-ea0cfc1215c0.bin",
+          "sha256": "3a7661a7f5c811c83f05f53008083b042fea0334fc6044ca1fda4982a8d48453"
+        },
+        {
+          "filename": "vocab.then.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522193057--0dcc1a4a-ca77-43fb-a034-ebc94de8f247--73cdb249-b2b2-44f6-85b4-cd3a2f8c5607.spm",
+          "sha256": "b625d3dcdfa2b4bbec496c9a0a30d169c917464ac5ea75506c0699972fea95f0"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.then.intgemm.alphas.bin\nvocabs:\n  - vocab.then.spm\n  - vocab.then.spm\nshortlist:\n    - lex.50.50.then.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-tr-en",
+      "name": "Turkish-English",
+      "sourceName": "Turkish",
+      "sourceCode": "tr",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.tren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/553d0a23-6940-49f5-8b2e-155b08897db7.bin",
+          "sha256": "bd18594ac5a7f1d9997e7ea5bd80272082219cf8b1ce604766e4f207eb86abbf"
+        },
+        {
+          "filename": "lex.50.50.tren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/0c8e7a90-9172-4987-aab2-ed027e0ff3aa.bin",
+          "sha256": "d3374ab5267a73ee1aa1d926a298bd349426835f40856991ee959bc5cd4f9fce"
+        },
+        {
+          "filename": "vocab.tren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/b99302c1-af69-4781-930f-d8dec82b8ec9.spm",
+          "sha256": "ed328e589a3ccd70fd3ce7773fc3c01d8b7b18c687464cacf17fd40a8c0daadd"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.tren.intgemm.alphas.bin\nvocabs:\n  - vocab.tren.spm\n  - vocab.tren.spm\nshortlist:\n    - lex.50.50.tren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-uk-en",
+      "name": "Ukrainian-English",
+      "sourceName": "Ukrainian",
+      "sourceCode": "uk",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.uken.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/31e03e41-af47-4de2-9420-f6fd206e0114.bin",
+          "sha256": "2e7b8bc9d2569d8b4ae244e964cdc343a0aa3735cc83ecb664be84a37cb45f48"
+        },
+        {
+          "filename": "lex.50.50.uken.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3e01a41b-9384-4bfc-98b9-031df4f9ee5e.bin",
+          "sha256": "32b5e0df493671a223cb5cb32430181cbb7fe6b5562c91dbc3d35410d37e5ff6"
+        },
+        {
+          "filename": "vocab.uken.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/3155c3f0-b486-40f3-bfdd-1b3b734cc171.spm",
+          "sha256": "8b51480dfc4ca2d7a08d2bfdaa9e57353ca97e6cf3d5f9aba4c0179d3665bfc0"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.uken.intgemm.alphas.bin\nvocabs:\n  - vocab.uken.spm\n  - vocab.uken.spm\nshortlist:\n    - lex.50.50.uken.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-ur-en",
+      "name": "Urdu-English",
+      "sourceName": "Urdu",
+      "sourceCode": "ur",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.uren.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143636--c80e0e9e-11b8-490e-ac35-885ebd75bf48--44e5d656-3384-4e3e-9705-25c3a93e1e8d.bin",
+          "sha256": "4915518d1699fb72c390603605d3ead9fb87a8c2f70092089a27df22a7c540d0"
+        },
+        {
+          "filename": "lex.50.50.uren.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143630--7c19cc5a-014a-49e5-930a-7aeeef0267ec--ce6bd093-a844-4185-9ed9-ebc886ea5317.bin",
+          "sha256": "afe891a57dc54974e322fc30feda41f32b5d7d2697a03bfc649dac5e079ae81e"
+        },
+        {
+          "filename": "vocab.uren.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260831143637--71d7ac59-e756-455f-aaa7-e09b5843a52f--612d91b1-c6fa-4dd1-a4e4-a38aa338e874.spm",
+          "sha256": "48304e0f0e30cd69a0d50f0fc61ba6ac2d75f86bab70d7ee59f7af14099e2e28"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.uren.intgemm.alphas.bin\nvocabs:\n  - vocab.uren.spm\n  - vocab.uren.spm\nshortlist:\n    - lex.50.50.uren.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-vi-en",
+      "name": "Vietnamese-English",
+      "sourceName": "Vietnamese",
+      "sourceCode": "vi",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "tiny",
+      "files": [
+        {
+          "filename": "model.vien.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ac5d5553-78cd-4b5a-846a-a51c07f148e3.bin",
+          "sha256": "de4bf2b9ffb4d910e32720ec3a43655fb6f4062ce5219332f824fc1bdca7a5f4"
+        },
+        {
+          "filename": "lex.50.50.vien.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/32d8a39d-acdd-4511-926e-b106875ae125.bin",
+          "sha256": "3a071ed3d982f6eb6ee116b84067bf70041e4229e43ea65ecb6d7c2796e8851b"
+        },
+        {
+          "filename": "vocab.vien.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/e182522d-4844-453c-81ba-7360522f7c1d.spm",
+          "sha256": "cb152765d1e71ea3cf96fdb339c764b7201be7b9ab32e20cfebcf16a20fc0939"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.vien.intgemm.alphas.bin\nvocabs:\n  - vocab.vien.spm\n  - vocab.vien.spm\nshortlist:\n    - lex.50.50.vien.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-zh-Hans-en",
+      "name": "Chinese (Simplified)-English",
+      "sourceName": "Chinese (Simplified)",
+      "sourceCode": "zh-Hans",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.zhen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/715efbde-c974-4696-981a-83c0c5f82ad5.bin",
+          "sha256": "5cd149601802fc8a18124a1c1306144dbbedc058630c4ddb2d53aa76fa9c7c06"
+        },
+        {
+          "filename": "lex.50.50.zhen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/ae5f53d2-59ec-4aad-944d-999e50d6a65c.bin",
+          "sha256": "8524dd4c93ffd7f0ae7be32f77a7c14fea7cdbbebe34ea6ad0ec368d5ddd8b13"
+        },
+        {
+          "filename": "vocab.zhen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/17ff5d42-6d4c-42f8-ad3c-b8042b5bafa7.spm",
+          "sha256": "dff594318ab7d8b7b60b844ab98ebe6b932ae8045fab15235404c787715965b3"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.zhen.intgemm.alphas.bin\nvocabs:\n  - vocab.zhen.spm\n  - vocab.zhen.spm\nshortlist:\n    - lex.50.50.zhen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    },
+    {
+      "shortName": "fx-zh-Hant-en",
+      "name": "Chinese (Traditional)-English",
+      "sourceName": "Chinese (Traditional)",
+      "sourceCode": "zh-Hant",
+      "targetName": "English",
+      "targetCode": "en",
+      "type": "base",
+      "files": [
+        {
+          "filename": "model.zhen.intgemm.alphas.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194230--6ca6db97-6bce-4110-981f-350e15965675--8323efd2-43e9-4886-9f60-35870d1744ea.bin",
+          "sha256": "0aee91790894458f5d367551f6edcd4c9cb97852c34f221bcbf9f4701ebcf0cd"
+        },
+        {
+          "filename": "lex.50.50.zhen.s2t.bin",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194215--6c386193-432a-422f-be5f-3cad0977e52b--a52e4a54-5f80-43ce-b873-1bc792ec1483.bin",
+          "sha256": "aa7daf6cfc85c0cd2c10e2944d66f6da55497c9c6408789f3adfded4074c2fb1"
+        },
+        {
+          "filename": "srcvocab.zhen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194213--ad6a9ed2-06ed-4c72-b6ba-aa4492bd582f--72fab356-41da-4bd6-a22c-aa5456ba3ea1.spm",
+          "sha256": "5cc6a76611dbf86219f109141533606b15ecb34eee83673bb86b2c16b14734db"
+        },
+        {
+          "filename": "trgvocab.zhen.spm",
+          "url": "https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/translations-models/20260522194217--5e1d7df1-80a8-4142-ae9d-0ff51b8c2fbc--5e39a274-9805-4d87-a950-39b3d95aac93.spm",
+          "sha256": "7bf002db37c10d3b114cc5588d7fdcb16c57d0fd1e2c34354c22cc9f0b6c3c29"
+        }
+      ],
+      "config": "relative-paths: true\nmodels:\n  - model.zhen.intgemm.alphas.bin\nvocabs:\n  - srcvocab.zhen.spm\n  - trgvocab.zhen.spm\nshortlist:\n    - lex.50.50.zhen.s2t.bin\n    - false\nbeam-size: 1\nnormalize: 1.0\nword-penalty: 0\nmini-batch: 64\nmaxi-batch: 1000\nmaxi-batch-sort: src\nworkspace: 2000\nmax-length-factor: 2.5\ngemm-precision: int8shiftAlphaAll\n"
+    }
+  ]
+}

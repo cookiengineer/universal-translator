@@ -13,7 +13,11 @@ type ModelStore interface {
 	// ModelDirectory returns the directory of an installed model.
 	ModelDirectory(shortName string) string
 
-	// Install extracts a downloaded archive into the model cache and returns
-	// the installed model.
-	Install(shortName string, archivePath string) (types.InstalledModel, error)
+	// StagingDirectory returns the temporary directory used to assemble a
+	// model before it is committed.
+	StagingDirectory(shortName string) string
+
+	// Commit validates a populated staging directory and moves it into place,
+	// returning the installed model.
+	Commit(shortName string, stagingDir string) (types.InstalledModel, error)
 }

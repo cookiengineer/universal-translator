@@ -12,6 +12,9 @@ const EnglishCode = "en"
 //go:embed catalog.json
 var catalogJSON []byte
 
+//go:embed firefox_catalog.json
+var firefoxCatalogJSON []byte
+
 type catalogFile struct {
 	Models []Model `json:"models"`
 }
@@ -19,11 +22,17 @@ type catalogFile struct {
 var catalog []Model
 
 func init() {
-	var file catalogFile
-	if err := json.Unmarshal(catalogJSON, &file); err != nil {
+	var dataStatMt, firefox catalogFile
+	if err := json.Unmarshal(catalogJSON, &dataStatMt); err != nil {
 		panic("could not parse embedded model catalog: " + err.Error())
 	}
-	catalog = file.Models
+	if err := json.Unmarshal(firefoxCatalogJSON, &firefox); err != nil {
+		panic("could not parse embedded firefox catalog: " + err.Error())
+	}
+
+	// The Bergamot (data.statmt.org) models come first so findModel prefers
+	// them over Firefox Translations models when both serve a pair.
+	catalog = append(dataStatMt.Models, firefox.Models...)
 }
 
 // All returns every model in the catalog.

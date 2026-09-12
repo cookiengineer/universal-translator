@@ -4,6 +4,7 @@ package models
 
 import (
 	"fmt"
+	"os"
 	"path/filepath"
 
 	"universal-translator/interfaces"
@@ -91,12 +92,20 @@ func (manager *ModelManager) ensureInstalled(model *catalog.Model, onProgress fu
 		return manager.installedModel(model.ShortName), nil
 	}
 
-	archivePath, err := manager.downloader.Download(*model, onProgress)
-	if err != nil {
+	stagingDir := manager.store.StagingDirectory(model.ShortName)
+	if err := os.RemoveAll(stagingDir); err != nil {
+		return types.InstalledModel{}, err
+	}
+	if err := os.MkdirAll(stagingDir, 0o755); err != nil {
 		return types.InstalledModel{}, err
 	}
 
-	return manager.store.Install(model.ShortName, archivePath)
+	if err := manager.downloader.Download(*model, stagingDir, onProgress); err != nil {
+		os.RemoveAll(stagingDir)
+		return types.InstalledModel{}, err
+	}
+
+	return manager.store.Commit(model.ShortName, stagingDir)
 }
 
 func (manager *ModelManager) installedModel(shortName string) types.InstalledModel {
@@ -104,6 +113,6 @@ func (manager *ModelManager) installedModel(shortName string) types.InstalledMod
 	return types.InstalledModel{
 		ShortName:  shortName,
 		Directory:  directory,
-		ConfigPath: filepath.Join(directory, repositories.ModelConfigFileName),
+		ConfigPath: filepath.Join(directory, types.ModelConfigFileName),
 	}
 }
