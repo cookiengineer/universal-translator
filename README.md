@@ -4,6 +4,8 @@ An offline, privacy-focused machine translation application for Linux built
 with GTK4 and the [Bergamot](https://github.com/browsermt/bergamot-translator)
 translation engine.
 
+![Screenshot](./docs/screenshot.png)
+
 The application is self-contained: the entire inference engine (Bergamot,
 Marian, SentencePiece, intgemm and ssplit) is compiled into a native library
 and linked into the Go binary via CGo. No translation is ever sent to a remote
