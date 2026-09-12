@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Universal Translator
+GenericName=Translator
+Comment=Offline machine translation
+Comment[de]=Offline-Maschinenübersetzung
+Exec=universal-translator
+Icon=universal-translator
+Terminal=false
+Categories=Utility;
+Keywords=translate;translation;offline;language;bergamot;
+StartupNotify=true

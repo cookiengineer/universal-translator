@@ -12,3 +12,4 @@
 /packages/archlinux/*/src/
 /packages/archlinux/*/pkg/
 /packages/archlinux/universal-translator/universal-translator/
+/packages/archlinux/universal-translator/universal-translator-*.pkg.tar.zst

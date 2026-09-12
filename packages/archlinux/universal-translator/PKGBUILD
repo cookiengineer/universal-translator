@@ -34,5 +34,6 @@ package() {
 
   install -Dm755 bin/universal-translator "$pkgdir/usr/bin/universal-translator"
   install -Dm755 bin/libbergamot_bridge.so "$pkgdir/usr/lib/libbergamot_bridge.so"
+  install -Dm644 dist/universal-translator.desktop "$pkgdir/usr/share/applications/universal-translator.desktop"
   install -Dm644 GPL-3.0-or-later.txt "$pkgdir/usr/share/licenses/$pkgname/GPL-3.0-or-later.txt"
 }
