@@ -7,3 +7,8 @@
 # Reference material used to study the upstream projects; the actual sources
 # are vendored under native/third_party/.
 /reference_codebases/
+
+# Arch Linux makepkg build artifacts
+/packages/archlinux/*/src/
+/packages/archlinux/*/pkg/
+/packages/archlinux/universal-translator/universal-translator/

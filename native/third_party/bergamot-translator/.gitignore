@@ -21,7 +21,9 @@ wasm/test_page/node_modules
 /build-native
 /build-wasm
 /emsdk
-models
+# Only ignore a top-level models directory (downloaded models during upstream
+# development); do not match the vendored marian-dev src/models sources below.
+/models
 wasm/module/worker/bergamot-translator-worker.*
 wasm/module/browsermt-bergamot-translator-*.tgz
 
